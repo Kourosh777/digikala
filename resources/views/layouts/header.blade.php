@@ -8,18 +8,19 @@
     <link rel="stylesheet" href="style/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/css/bootstrap-rtl.css">
     <link href="./style/css/all.css" rel="stylesheet">
+    <link href="./style/css/fontawesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link href="./style/css/swiperjs.css" rel="stylesheet">
     <link rel="stylesheet" href="style/css/style.css">
+    @if(Route::getCurrentRoute()->uri == 'single-product')
+    <link rel="stylesheet" href="./style/css/single-product.css">
+    @endif
     <title>Document</title>
-    <!-- Demo styles -->
-
 </head>
 
-<body>
-
-<!-- component 10 -->
-<header class="fixed-top">
+<body data-spy="scroll" data-target="#navbar-example2" data-offset="250">
+<!-- header and navbar 10 -->
+<header class="sticky-top">
     <div class="component10">
         <div class="component-body10">
             <div class="row">
@@ -35,9 +36,9 @@
 
                                 <div class="input-group header-search">
                                     <div class="input-group-prepend">
-                                        <span
-                                            class="input-group-text border-left-0 search-icon header-search-border"
-                                            id="basic-addon1"><i class="fa fa-search" aria-hidden="true"></i></span>
+                                            <span
+                                                class="input-group-text border-left-0 search-icon header-search-border"
+                                                id="basic-addon1"><i class="fa fa-search" aria-hidden="true"></i></span>
                                     </div>
                                     <input type="text"
                                            class="form-control input-group-text border-right-0 text-right search-input header-search-border"
@@ -63,7 +64,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row navbar-container">
                 <div class="col">
                     <nav>
                         <div class="nav-container row justify-content-between">
@@ -78,18 +79,22 @@
                                         </a>
                                         <div class="dropdown-details">
                                             <div class="dropdown-categories d-flex flex-column">
-                                                <a href=""><i class="fa fa-laptop ml-2" aria-hidden="true"></i>کالای
+                                                <a href="" data-index="1"><i class="fa fa-laptop ml-2"
+                                                                             aria-hidden="true"></i>کالای
                                                     دیجیتال </a>
-                                                <a href=""><i class="fa fa-laptop ml-2" aria-hidden="true"></i>کالای
+                                                <a href="" data-index="2"><i class="fa fa-laptop ml-2"
+                                                                             aria-hidden="true"></i>خودرو، ابزار و تجهیزات صنعتی </a>
+                                                <a href="" data-index="3"><i class="fa fa-laptop ml-2"
+                                                                             aria-hidden="true"></i>مد و پوشاک </a>
+                                                <a href="" data-index="4"><i class="fa fa-laptop ml-2"
+                                                                             aria-hidden="true"></i>کالای
                                                     دیجیتال </a>
-                                                <a href=""><i class="fa fa-laptop ml-2" aria-hidden="true"></i>کالای
-                                                    دیجیتال </a>
-                                                <a href=""><i class="fa fa-laptop ml-2" aria-hidden="true"></i>کالای
-                                                    دیجیتال </a>
-                                                <a href=""><i class="fa fa-laptop ml-2" aria-hidden="true"></i>کالای
+                                                <a href="" data-index="5"><i class="fa fa-laptop ml-2"
+                                                                             aria-hidden="true"></i>کالای
                                                     دیجیتال </a>
                                             </div>
-                                            <div class="dropdown-categories-content d-flex flex-column">
+
+                                            <div class="dropdown-categories-content is-active" data-index="1">
                                                 <div class="dropdown-content-header">
                                                     <a href="">
 
@@ -97,7 +102,8 @@
                                                         <i class="fa fa-angle-left mr-2" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
-                                                <ul class="list-unstyled dropdown-content pt-0 d-flex flex-column flex-wrap">
+                                                <ul
+                                                    class="list-unstyled dropdown-content pt-0 d-flex flex-column flex-wrap">
                                                     <li><a href="">
                                                             کیف و کاور گوشی
                                                         </a></li>
@@ -150,62 +156,127 @@
 
                                                 </ul>
                                             </div>
-                                            <div class="dropdown-categories-content d-none">
+                                            <div class="dropdown-categories-content" data-index="2">
                                                 <div class="dropdown-content-header">
                                                     <a href="">
 
-                                                        همه دسته‌بندی‌های کالای دیجیتال
+                                                        همه دسته‌بندی‌های وسایل نقلیه و صنعتی
+
                                                         <i class="fa fa-angle-left mr-2" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
-                                                <ul class="list-unstyled dropdown-content pt-0 d-flex flex-column flex-wrap">
+                                                <ul
+                                                    class="list-unstyled dropdown-content pt-0 d-flex flex-column flex-wrap">
                                                     <li><a href="">
-                                                            گوشی موبایل
+                                                            خودرو های ایرانی و خارجی
                                                         </a></li>
                                                     <li><a href="">
-                                                            گوشی موبایل
+                                                            خودرو های ایرانی و خارجی
                                                         </a></li>
                                                     <li><a href="">
-                                                            گوشی موبایل
+                                                            خودرو های ایرانی و خارجی
                                                         </a></li>
                                                     <li><a href="">
-                                                            گوشی موبایل
+                                                            خودرو های ایرانی و خارجی
                                                         </a></li>
                                                     <li><a href="">
-                                                            گوشی موبایل
+                                                            خودرو های ایرانی و خارجی
                                                         </a></li>
                                                     <li><a href="">
-                                                            گوشی موبایل
+                                                            خودرو های ایرانی و خارجی
                                                         </a></li>
                                                     <li><a href="">
-                                                            گوشی موبایل
+                                                            خودرو های ایرانی و خارجی
                                                         </a></li>
                                                     <li><a href="">
-                                                            گوشی موبایل
+                                                            خودرو های ایرانی و خارجی
                                                         </a></li>
                                                     <li><a href="">
-                                                            گوشی موبایل
+                                                            خودرو های ایرانی و خارجی
                                                         </a></li>
                                                     <li><a href="">
-                                                            گوشی موبایل
+                                                            خودرو های ایرانی و خارجی
                                                         </a></li>
                                                     <li><a href="">
-                                                            گوشی موبایل
+                                                            خودرو های ایرانی و خارجی
                                                         </a></li>
                                                     <li><a href="">
-                                                            گوشی موبایل
+                                                            خودرو های ایرانی و خارجی
                                                         </a></li>
                                                     <li><a href="">
-                                                            گوشی موبایل
+                                                            خودرو های ایرانی و خارجی
                                                         </a></li>
                                                     <li><a href="">
-                                                            گوشی موبایل
+                                                            خودرو های ایرانی و خارجی
                                                         </a></li>
                                                     <li><a href="">
-                                                            گوشی موبایل
+                                                            خودرو های ایرانی و خارجی
                                                         </a></li>
                                                     <li><a href="">
-                                                            گوشی موبایل
+                                                            خودرو های ایرانی و خارجی
+                                                        </a></li>
+
+
+                                                </ul>
+                                            </div>
+                                            <div class="dropdown-categories-content" data-index="3">
+                                                <div class="dropdown-content-header">
+                                                    <a href="">
+
+                                                        همه دسته‌بندی‌های مد و پوشاک
+
+                                                        <i class="fa fa-angle-left mr-2" aria-hidden="true"></i>
+                                                    </a>
+                                                </div>
+                                                <ul
+                                                    class="list-unstyled dropdown-content pt-0 d-flex flex-column flex-wrap">
+                                                    <li><a href="">
+                                                            لباس مردانه
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            لباس مردانه
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            لباس مردانه
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            لباس مردانه
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            لباس مردانه
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            لباس مردانه
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            لباس مردانه
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            لباس مردانه
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            لباس مردانه
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            لباس مردانه
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            لباس مردانه
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            لباس مردانه
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            لباس مردانه
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            لباس مردانه
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            لباس مردانه
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            لباس مردانه
                                                         </a></li>
 
 
@@ -257,3 +328,4 @@
         </div>
     </div>
 </header>
+<!-- end header -->

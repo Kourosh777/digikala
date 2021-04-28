@@ -19,3 +19,7 @@ Route::get('/', function () {
 Route::get('/digikala', function () {
     return view('index');
 });
+Route::get('/single-product', function () {
+//    dd( Route::getCurrentRoute()->uri == 'single-product' );
+    return view('single-product');
+});
