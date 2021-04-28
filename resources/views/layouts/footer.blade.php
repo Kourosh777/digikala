@@ -308,6 +308,17 @@
     $('.search-input').focusout(function(){
         $('.search-icon').removeClass('bg-white');
     })
+
+    //smooth scroll
+    $('.nav-link').on('click' , function(e) {
+        let target = $(this.hash);
+        if(target.length) {
+            e.preventDefault();
+            $('html,body').animate({
+                scrollTop : target.offset().top-180
+            },1000)
+        }
+    })
 </script>
 </body>
 

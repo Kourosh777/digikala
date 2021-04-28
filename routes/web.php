@@ -80,8 +80,7 @@ Route::get('/single-product', function () {
         ],
     ];
 
-//    dd( Route::getCurrentRoute()->uri == 'single-product' );
-//    dd(compact('comments'));
+
 
     return view('single-product',compact('product_params','comments','questions'));
 });
