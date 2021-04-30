@@ -1,5 +1,6 @@
 body{
     height: initial;
+    font-family: Shabnam,sans-serif;
     /* position: relative; */
 }
 a{
@@ -518,7 +519,7 @@ a:hover{
 
 /* component product descriptions */
 .product-tab{
-    padding: 14px 16px;
+    padding: 11px 16px;
     font-size: 14px;
     font-size: 1rem;
     line-height: 24px;

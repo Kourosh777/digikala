@@ -11,6 +11,7 @@
     <link href="./style/css/fontawesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link href="./style/css/swiperjs.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/css/font.css">
     <link rel="stylesheet" href="style/css/style.css">
     @if(Route::getCurrentRoute()->uri == 'single-product')
     <link rel="stylesheet" href="./style/css/single-product.css">
