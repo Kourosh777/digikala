@@ -327,6 +327,7 @@
                                     <div class="product-usp">
                                         <aside class="product-feature-container">
                                             <div class="row">
+                                                @for ($i = 0; $i < 5; $i++)
                                                 <div class="product-feature col">
                                                     <a href="" class="d-flex align-items-center">
                                                         <i class="fa fa-plane ml-2"></i>
@@ -338,50 +339,7 @@
                                                         </span>
                                                     </a>
                                                 </div>
-                                                <div class="product-feature col">
-                                                    <a href="" class="d-flex align-items-center">
-                                                        <i class="fa fa-plane ml-2"></i>
-                                                        <span>
-                                                            امکان تحویل
-                                                            <br>
-                                                            اکسپرس
-
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                                <div class="product-feature col">
-                                                    <a href="" class="d-flex align-items-center">
-                                                        <i class="fa fa-plane ml-2"></i>
-                                                        <span>
-                                                            امکان تحویل
-                                                            <br>
-                                                            اکسپرس
-
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                                <div class="product-feature col">
-                                                    <a href="" class="d-flex align-items-center">
-                                                        <i class="fa fa-plane ml-2"></i>
-                                                        <span>
-                                                            امکان تحویل
-                                                            <br>
-                                                            اکسپرس
-
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                                <div class="product-feature col">
-                                                    <a href="" class="d-flex align-items-center">
-                                                        <i class="fa fa-plane ml-2"></i>
-                                                        <span>
-                                                            امکان تحویل
-                                                            <br>
-                                                            اکسپرس
-
-                                                        </span>
-                                                    </a>
-                                                </div>
+                                                @endfor
                                             </div>
                                         </aside>
                                     </div>
@@ -410,6 +368,7 @@
                         <div class="suppliers-body">
                             <div class="suppliers-table mt-3">
                                 <!-- one row -->
+                                @for ($i = 0; $i < 3; $i++)
                                 <div class="suppliers-table-row d-flex justify-content-between">
                                     <div class="suppliers-table-cell d-flex align-items-center">
                                         <i class="suppliers-seller-icon fa fa-plus-circle ml-2"></i>
@@ -447,81 +406,8 @@
                                             سبد</a>
                                     </div>
                                 </div>
+                                @endfor
                                 <!-- end of a row -->
-                                <div class="suppliers-table-row d-flex justify-content-between">
-                                    <div class="suppliers-table-cell d-flex align-items-center">
-                                        <i class="suppliers-seller-icon fa fa-plus-circle ml-2"></i>
-                                        <div class="suplliers-seller wrapper">
-                                            <p class="seller-name m-0">دیجی کالا</p>
-                                            <div class="seller-rating">
-                                                <span>عملکرد 5 از 5</span>
-                                                <span class="u-divider"></span>
-                                                <span>80% رضایت از کالا</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="suppliers-table-cell d-flex align-items-center">
-                                        <div class="suppliers-sender d-flex align-items-center">
-                                            <i class="suppliers-seller-icon fa fa-truck ml-2"></i>
-                                            <span>ارسال دیجی کالا</span>
-                                        </div>
-                                    </div>
-                                    <div class="suppliers-table-cell d-flex align-items-center">
-                                        <div class="suplliers-guarantte">
-                                            <i class="suppliers-seller-icon fa fa-check-square ml-2"></i>
-                                            <span>گارانتی ۱۸ ماهه داریا همراه پایتخت</span>
-                                        </div>
-                                    </div>
-                                    <div class="suppliers-table-cell d-flex align-items-center">
-                                        <div class="suppllier-price">
-                                            <span>
-                                                ۳,۶۳۹,۰۰۰
-                                            </span>
-                                            <span> تومان</span>
-                                        </div>
-                                    </div>
-                                    <div class="suppliers-table-cell d-flex align-items-center">
-                                        <a href="" class="btn btn-outline-danger suppliers-add-to-cart-btn">افزودن به
-                                            سبد</a>
-                                    </div>
-                                </div>
-                                <div class="suppliers-table-row d-flex justify-content-between">
-                                    <div class="suppliers-table-cell d-flex align-items-center">
-                                        <i class="suppliers-seller-icon fa fa-plus-circle ml-2"></i>
-                                        <div class="suplliers-seller wrapper">
-                                            <p class="seller-name m-0">دیجی کالا</p>
-                                            <div class="seller-rating">
-                                                <span>عملکرد 5 از 5</span>
-                                                <span class="u-divider"></span>
-                                                <span>80% رضایت از کالا</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="suppliers-table-cell d-flex align-items-center">
-                                        <div class="suppliers-sender d-flex align-items-center">
-                                            <i class="suppliers-seller-icon fa fa-truck ml-2"></i>
-                                            <span>ارسال دیجی کالا</span>
-                                        </div>
-                                    </div>
-                                    <div class="suppliers-table-cell d-flex align-items-center">
-                                        <div class="suplliers-guarantte">
-                                            <i class="suppliers-seller-icon fa fa-check-square ml-2"></i>
-                                            <span>گارانتی ۱۸ ماهه داریا همراه پایتخت</span>
-                                        </div>
-                                    </div>
-                                    <div class="suppliers-table-cell d-flex align-items-center">
-                                        <div class="suppllier-price">
-                                            <span>
-                                                ۳,۶۳۹,۰۰۰
-                                            </span>
-                                            <span> تومان</span>
-                                        </div>
-                                    </div>
-                                    <div class="suppliers-table-cell d-flex align-items-center">
-                                        <a href="" class="btn btn-outline-danger suppliers-add-to-cart-btn">افزودن به
-                                            سبد</a>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -593,14 +479,14 @@
                             </ul>
 
                         <div class="product-expert-content" id="expert">
-                            <article>
+                            <article class="pt-3">
                                 <div class="box-header">
                                     <span class="o-box_title">نقد و بررسی اجمالی</span>
                                     <span class="o-box_header-desc">Samsung Galaxy A12 SM-A125F/DS Dual SIM 64GB Mobile
                                         Phone</span>
                                 </div>
                                 <section class="product-expert-content-text pb-4">
-                                    <div class="expert-text">
+                                    <div class="expert-text mask-text">
                                         گوشی A12 یکی دیگر از میان رده‌های شرکت سامسونگ است که در تاریخ 24 نوامبر 2020
                                         معرفی شد. شرکت سامسونگ برای این محصول خود از یک صفحه‌نمایش 6.5 اینچی با رزولوشن
                                         1600 در 720 پیکسل، استفاده کرده است. این صفحه‌نمایش در هر اینچ 264 پیکسل را نشان
@@ -616,14 +502,18 @@
                                         است که در گوشه بالای صفحه‌نمایش قرار گرفته است. منبع انرژی گوشی A12 یک باتری
                                         لیتیوم-پلیمری با ظرفیت 5000 میلی‌آمپرساعت است که از فناوری شارژ سریع 15 واتی هم
                                         پشتیبانی می‌کند.
+
+
+
                                     </div>
+                                    <a href="" class="btn-link-blue" id="text-span-btn"><span class="pl-2">ادامه مطلب</span> <i class="fa fa-angle-down"></i></a>
                                 </section>
                                 <div class="content-separator">
                                 </div>
                             </article>
                         </div>
                         <div class="prtoduct-specifications" id="specifications">
-                            <article>
+                            <article class="pb-3">
                                 <div class="box-header pt-4">
                                     <span class="o-box_title">مشخصات کالا</span>
                                     <span class="o-box_header-desc">Samsung Galaxy A12 SM-A125F/DS Dual SIM 64GB Mobile
@@ -636,6 +526,91 @@
                                         <x-parameters :params="$product_params"></x-parameters>
                                     </ul>
                                 </section>
+                                <div class="product-param-collapse">
+                                    <section class="d-flex pt-3 pb-3">
+                                        <h3 class="product-params-title">پردازنده</h3>
+                                        <ul class="product-param-list list-unstyled mb-0">
+                                            <li class="d-flex">
+                                                <div class="param-key">
+                                                    <span class="param-block">تراشه</span>
+                                                </div>
+                                                <div class="param-value">
+                                                    <span class="param-block">Mediatek MT6765 Helio P35 (12nm) Chipest</span>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex">
+                                                <div class="param-key">
+                                                    <span class="param-block">پردازنده‌ی مرکزی</span>
+                                                </div>
+                                                <div class="param-value">
+                                                    <span class="param-block">Quad-Core Cortex-A53 & Quad-core Cortex-A53 CPU</span>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex">
+                                                <div class="param-key">
+                                                    <span class="param-block">نوع پردازنده</span>
+                                                </div>
+                                                <div class="param-value">
+                                                    <span class="param-block">64 بیت</span>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex">
+                                                <div class="param-key">
+                                                    <span class="param-block">فرکانس پردازنده‌ی مرکزی</span>
+                                                </div>
+                                                <div class="param-value">
+                                                    <span class="param-block">2.35 , 1.8 گیگاهرتز</span>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex">
+                                                <div class="param-key">
+                                                    <span class="param-block">پردازنده‌ی گرافیکی</span>
+                                                </div>
+                                                <div class="param-value">
+                                                    <span class="param-block">PowerVR GE8320 GPU</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </section>
+                                    <section class="d-flex pt-3 pb-3">
+                                        <h3 class="product-params-title">حافظه</h3>
+                                        <ul class="product-param-list list-unstyled mb-0">
+                                            <li class="d-flex">
+                                                <div class="param-key">
+                                                    <span class="param-block">حافظه داخلی</span>
+                                                </div>
+                                                <div class="param-value">
+                                                    <span class="param-block">64 گیگابایت</span>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex">
+                                                <div class="param-key">
+                                                    <span class="param-block">مقدار RAM</span>
+                                                </div>
+                                                <div class="param-value">
+                                                    <span class="param-block">4 گیگابایت</span>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex">
+                                                <div class="param-key">
+                                                    <span class="param-block">پشتیبانی از کارت حافظه جانبی</span>
+                                                </div>
+                                                <div class="param-value">
+                                                    <span class="param-block">microSD</span>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex">
+                                                <div class="param-key">
+                                                    <span class="param-block">استاندارد کارت حافظه</span>
+                                                </div>
+                                                <div class="param-value">
+                                                    <span class="param-block">eMMC 5.1</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </section>
+                                </div>
+                                <a href="" class="btn-link-blue pb-2" id="collapse-param-btn"><span class="pl-2">نمایش همه مشخصات کالا</span> <i class="fa fa-angle-down"></i></a>
                             </article>
                         </div>
                         <div class="content-separator">
