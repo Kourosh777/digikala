@@ -543,6 +543,7 @@
                 <div class="row">
                     <div class="col swiper-container">
                         <div class="swiper-wrapper d-flex">
+                            @for ($i = 0; $i < 10; $i++)
                             <div class="card border-0 card-item swiper-slide">
                                 <img class="card-img-top img6" src="./style/images/19.jpg" alt="Card image cap">
                                 <div class="card-body">
@@ -559,123 +560,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card border-0 card-item swiper-slide">
-                                <img class="card-img-top img6" src="./style/images/19.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title mytitle2">گوشی موبایل شیائومی مدل POCO X3 M2007J20CG</h5>
-                                    <div class="my-font-size">
-
-                                        <div class="font-weight-bold d-flex justify-content-end align-items-center">
-                                            <span class="real-price2">۵۲۷,۰۰۰ </span>
-                                            <span class="pr-1 toman-font">تومان</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card border-0 card-item swiper-slide">
-                                <img class="card-img-top img6" src="./style/images/19.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title mytitle2">گوشی موبایل شیائومی مدل POCO X3 M2007J20CG</h5>
-                                    <div class="my-font-size">
-
-                                        <div class="font-weight-bold d-flex justify-content-end align-items-center">
-                                            <span class="real-price2">۵۲۷,۰۰۰ </span>
-                                            <span class="pr-1 toman-font">تومان</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card border-0 card-item swiper-slide">
-                                <img class="card-img-top img6" src="./style/images/19.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title mytitle2">گوشی موبایل شیائومی مدل POCO X3 M2007J20CG</h5>
-                                    <div class="my-font-size">
-
-                                        <div class="font-weight-bold d-flex justify-content-end align-items-center">
-                                            <span class="real-price2">۵۲۷,۰۰۰ </span>
-                                            <span class="pr-1 toman-font">تومان</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card border-0 card-item swiper-slide">
-                                <img class="card-img-top img6" src="./style/images/19.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title mytitle2">گوشی موبایل شیائومی مدل POCO X3 M2007J20CG</h5>
-                                    <div class="my-font-size">
-
-                                        <div class="font-weight-bold d-flex justify-content-end align-items-center">
-                                            <span class="real-price2">۵۲۷,۰۰۰ </span>
-                                            <span class="pr-1 toman-font">تومان</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card border-0 card-item swiper-slide">
-                                <img class="card-img-top img6" src="./style/images/19.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title mytitle2">گوشی موبایل شیائومی مدل POCO X3 M2007J20CG</h5>
-                                    <div class="my-font-size">
-
-                                        <div class="font-weight-bold d-flex justify-content-end align-items-center">
-                                            <span class="real-price2">۵۲۷,۰۰۰ </span>
-                                            <span class="pr-1 toman-font">تومان</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card border-0 card-item swiper-slide">
-                                <img class="card-img-top img6" src="./style/images/19.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title mytitle2">گوشی موبایل شیائومی مدل POCO X3 M2007J20CG</h5>
-                                    <div class="my-font-size">
-
-                                        <div class="font-weight-bold d-flex justify-content-end align-items-center">
-                                            <span class="real-price2">۵۲۷,۰۰۰ </span>
-                                            <span class="pr-1 toman-font">تومان</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card border-0 card-item swiper-slide">
-                                <img class="card-img-top img6" src="./style/images/19.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title mytitle2">گوشی موبایل شیائومی مدل POCO X3 M2007J20CG</h5>
-                                    <div class="my-font-size">
-
-                                        <div class="font-weight-bold d-flex justify-content-end align-items-center">
-                                            <span class="real-price2">۵۲۷,۰۰۰ </span>
-                                            <span class="pr-1 toman-font">تومان</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card border-0 card-item swiper-slide">
-                                <img class="card-img-top img6" src="./style/images/19.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title mytitle2">گوشی موبایل شیائومی مدل POCO X3 M2007J20CG</h5>
-                                    <div class="my-font-size">
-
-                                        <div class="font-weight-bold d-flex justify-content-end align-items-center">
-                                            <span class="real-price2">۵۲۷,۰۰۰ </span>
-                                            <span class="pr-1 toman-font">تومان</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card border-0 card-item swiper-slide">
-                                <img class="card-img-top img6" src="./style/images/19.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title mytitle2">گوشی موبایل شیائومی مدل POCO X3 M2007J20CG</h5>
-                                    <div class="my-font-size">
-
-                                        <div class="font-weight-bold d-flex justify-content-end align-items-center">
-                                            <span class="real-price2">۵۲۷,۰۰۰ </span>
-                                            <span class="pr-1 toman-font">تومان</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            @endfor
                         </div>
                         <!-- Add Pagination -->
                         <!-- <div class="swiper-pagination"></div> -->
