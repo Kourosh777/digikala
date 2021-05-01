@@ -192,9 +192,10 @@
     </div>
 </div>
 
-<script src="./style/js/jquery-3.5.1.min.js"></script>
+{{--<script src="./style/js/jquery-3.5.1.min.js"></script>
 <script src="./style/js/popper.js"></script>
-<script src="./style/js/bootstrap.js"></script>
+<script src="./style/js/bootstrap.js"></script>--}}
+<script src="{{ asset('./assets/js/app.js') }}"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 @if(Route::getCurrentRoute()->uri == 'digikala')
 <script src="./style/js/index.js"></script>

@@ -5,16 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/css/bootstrap.min.css">
+    {{--<link rel="stylesheet" href="style/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/css/bootstrap-rtl.css">
     <link href="./style/css/all.css" rel="stylesheet">
-    <link href="./style/css/fontawesome.min.css" rel="stylesheet">
+    --}}
+    <link rel="stylesheet" href="{{ asset('./assets/css/app.css') }}">
+    <link href="./assets/css/all.css" rel="stylesheet">
+{{--    <link href="./style/css/fontawesome.min.css" rel="stylesheet">--}}
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link href="./style/css/swiperjs.css" rel="stylesheet">
-    <link rel="stylesheet" href="./style/css/font.css">
-    <link rel="stylesheet" href="style/css/style.css">
+    {{--<link href="./style/css/swiperjs.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/css/font.css">--}}
+    <link rel="stylesheet" href="assets/css/style.css">
     @if(Route::getCurrentRoute()->uri == 'single-product')
-    <link rel="stylesheet" href="./style/css/single-product.css">
+    <link rel="stylesheet" href="./assets/css/single-product.css">
     @endif
     <title>Document</title>
 </head>
