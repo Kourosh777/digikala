@@ -519,96 +519,58 @@
                                     <span class="o-box_header-desc">Samsung Galaxy A12 SM-A125F/DS Dual SIM 64GB Mobile
                                         Phone</span>
                                 </div>
-                                <section class="d-flex pt-3 pb-5">
+                                {{--<section class="d-flex pt-3 pb-5">
                                     <h3 class="product-params-title">مشخصات کلی</h3>
                                     <ul class="product-param-list list-unstyled mb-0">
-                            {{-- product parameters --}}
+                                        <li class="d-flex">
+                                            <div class="param-key">
+                                                <span class="param-block">تراشه</span>
+                                            </div>
+                                            <div class="param-value">
+                                                <span class="param-block">Mediatek MT6765 Helio P35 (12nm) Chipest</span>
+                                            </div>
+                                        </li>
+                                        <li class="d-flex">
+                                            <div class="param-key">
+                                                <span class="param-block">پردازنده‌ی مرکزی</span>
+                                            </div>
+                                            <div class="param-value">
+                                                <span class="param-block">Quad-Core Cortex-A53 & Quad-core Cortex-A53 CPU</span>
+                                            </div>
+                                        </li>
+                                        <li class="d-flex">
+                                            <div class="param-key">
+                                                <span class="param-block">نوع پردازنده</span>
+                                            </div>
+                                            <div class="param-value">
+                                                <span class="param-block">64 بیت</span>
+                                            </div>
+                                        </li>
+                                        <li class="d-flex">
+                                            <div class="param-key">
+                                                <span class="param-block">فرکانس پردازنده‌ی مرکزی</span>
+                                            </div>
+                                            <div class="param-value">
+                                                <span class="param-block">2.35 , 1.8 گیگاهرتز</span>
+                                            </div>
+                                        </li>
+                                        <li class="d-flex">
+                                            <div class="param-key">
+                                                <span class="param-block">پردازنده‌ی گرافیکی</span>
+                                            </div>
+                                            <div class="param-value">
+                                                <span class="param-block">PowerVR GE8320 GPU</span>
+                                            </div>
+                                        </li>
                                         <x-parameters :params="$product_params"></x-parameters>
                                     </ul>
-                                </section>
+                                </section>--}}
+
+                                <x-parameters :params="$product_general_params['مشخصات کلی']" title="{{ key($product_general_params) }}"></x-parameters>
                                 <div class="product-param-collapse">
-                                    <section class="d-flex pt-3 pb-3">
-                                        <h3 class="product-params-title">پردازنده</h3>
-                                        <ul class="product-param-list list-unstyled mb-0">
-                                            <li class="d-flex">
-                                                <div class="param-key">
-                                                    <span class="param-block">تراشه</span>
-                                                </div>
-                                                <div class="param-value">
-                                                    <span class="param-block">Mediatek MT6765 Helio P35 (12nm) Chipest</span>
-                                                </div>
-                                            </li>
-                                            <li class="d-flex">
-                                                <div class="param-key">
-                                                    <span class="param-block">پردازنده‌ی مرکزی</span>
-                                                </div>
-                                                <div class="param-value">
-                                                    <span class="param-block">Quad-Core Cortex-A53 & Quad-core Cortex-A53 CPU</span>
-                                                </div>
-                                            </li>
-                                            <li class="d-flex">
-                                                <div class="param-key">
-                                                    <span class="param-block">نوع پردازنده</span>
-                                                </div>
-                                                <div class="param-value">
-                                                    <span class="param-block">64 بیت</span>
-                                                </div>
-                                            </li>
-                                            <li class="d-flex">
-                                                <div class="param-key">
-                                                    <span class="param-block">فرکانس پردازنده‌ی مرکزی</span>
-                                                </div>
-                                                <div class="param-value">
-                                                    <span class="param-block">2.35 , 1.8 گیگاهرتز</span>
-                                                </div>
-                                            </li>
-                                            <li class="d-flex">
-                                                <div class="param-key">
-                                                    <span class="param-block">پردازنده‌ی گرافیکی</span>
-                                                </div>
-                                                <div class="param-value">
-                                                    <span class="param-block">PowerVR GE8320 GPU</span>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </section>
-                                    <section class="d-flex pt-3 pb-3">
-                                        <h3 class="product-params-title">حافظه</h3>
-                                        <ul class="product-param-list list-unstyled mb-0">
-                                            <li class="d-flex">
-                                                <div class="param-key">
-                                                    <span class="param-block">حافظه داخلی</span>
-                                                </div>
-                                                <div class="param-value">
-                                                    <span class="param-block">64 گیگابایت</span>
-                                                </div>
-                                            </li>
-                                            <li class="d-flex">
-                                                <div class="param-key">
-                                                    <span class="param-block">مقدار RAM</span>
-                                                </div>
-                                                <div class="param-value">
-                                                    <span class="param-block">4 گیگابایت</span>
-                                                </div>
-                                            </li>
-                                            <li class="d-flex">
-                                                <div class="param-key">
-                                                    <span class="param-block">پشتیبانی از کارت حافظه جانبی</span>
-                                                </div>
-                                                <div class="param-value">
-                                                    <span class="param-block">microSD</span>
-                                                </div>
-                                            </li>
-                                            <li class="d-flex">
-                                                <div class="param-key">
-                                                    <span class="param-block">استاندارد کارت حافظه</span>
-                                                </div>
-                                                <div class="param-value">
-                                                    <span class="param-block">eMMC 5.1</span>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </section>
+                                    @foreach($product_params as $title_key => $allparams)
+                                        <x-parameters :params="$allparams" :title="$title_key"></x-parameters>
+                                    @endforeach
                                 </div>
                                 <a href="" class="btn-link-blue pb-2" id="collapse-param-btn"><span class="pl-2">نمایش همه مشخصات کالا</span> <i class="fa fa-angle-down"></i></a>
                             </article>
