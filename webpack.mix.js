@@ -18,6 +18,7 @@ const mix = require('laravel-mix');
 
 mix.combine(['resources/assets/css/bootstrap.min.css',
     'resources/assets/css/bootstrap-rtl.css',
+    'resources/assets/css/all.css',
     'resources/assets/css/swiperjs.css',
     'resources/assets/css/font.css',
 ],'public/assets/css/app.css');

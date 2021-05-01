@@ -91,16 +91,16 @@
             </div>
             <div class="footer-address-image d-flex justify-content-center">
                 <a href="">
-                    <img src="./style/images/2.png" class="img-fluid" alt="">
+                    <img src="{{ asset('./style/images/2.png')}}" c{{asset('lass="img-fluid" alt')}}="">
                 </a>
                 <a href="">
-                    <img src="./style/images/1.svg" width="150" class="img-fluid" alt="">
+                    <img src="{{ asset('./style/images/1.svg')}}" w{{asset('dth="150" class="img')}}-fluid" alt="">
                 </a>
                 <a href="">
-                    <img src="./style/images/2.svg" class="img-fluid" alt="">
+                    <img src="{{ asset('./style/images/2.svg')}}" c{{asset('ass="img-fluid" alt=')}}"">
                 </a>
                 <a href="">
-                    <img src="./style/images/3.png" class="img-fluid" alt="">
+                    <img src="{{ asset('./style/images/3.png')}}" class="img-fluid" alt="">
                 </a>
             </div>
         </div>
@@ -136,13 +136,13 @@
                 <aside>
                     <ul class="list-unstyled d-flex footer-safety-partner">
                         <li class="d-flex">
-                            <img class="img-fluid img8" width="90" src="./style/images/4.png" alt="">
+                            <img class="img-fluid img8" width="90" src="{{asset('./style/images/4.png')}}" alt="">
                         </li>
                         <li>
-                            <img class="img-fluid" src="./style/images/5.png" alt="">
+                            <img class="img-fluid" src="{{asset('./style/images/5.png')}}" alt="">
                         </li>
                         <li>
-                            <img class="img-fluid" src="./style/images/6.png" alt="">
+                            <img class="img-fluid" src="{{asset('./style/images/6.png')}}" alt="">
                         </li>
                     </ul>
                 </aside>
@@ -152,32 +152,32 @@
             <ul class="list-unstyled d-flex justify-content-between">
                 <li>
                     <a href="">
-                        <img src="./style/images/3.svg" alt="">
+                        <img src="{{asset('./style/images/3.svg')}}" alt="">
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src="./style/images/4.svg" alt="">
+                        <img src="{{asset('./style/images/4.svg')}}" alt="">
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src="./style/images/5.svg" alt="">
+                        <img src="{{asset('./style/images/5.svg')}}" alt="">
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src="./style/images/6.svg" alt="">
+                        <img src="{{asset('./style/images/6.svg')}}" alt="">
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src="./style/images/7.svg" alt="">
+                        <img src="{{asset('./style/images/7.svg')}}" alt="">
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src="./style/images/8.svg" alt="">
+                        <img src="{{asset('./style/images/8.svg')}}" alt="">
                     </a>
                 </li>
             </ul>
@@ -198,9 +198,9 @@
 <script src="{{ asset('./assets/js/app.js') }}"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 @if(Route::getCurrentRoute()->uri == 'digikala')
-<script src="./style/js/index.js"></script>
+<script src="{{ asset('style/js/index.js') }}"></script>
 @elseif(Route::getCurrentRoute()->uri == 'single-product')
-<script src="./style/js/single-product.js"></script>
+<script src="{{ asset('style/js/single-product.js') }}"></script>
 @endif
 </body>
 
