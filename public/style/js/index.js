@@ -111,6 +111,14 @@ $(window).resize(function () {
 });
 
 
+// searchbox style
+$('.search-input').focus(function(){
+    $('.search-icon').addClass('bg-white');
+})
+$('.search-input').focusout(function(){
+    $('.search-icon').removeClass('bg-white');
+})
+
 // changing navbar content with js:
 $('.dropdown-categories a').mouseenter(function () {
     //    var x= $('.dropdown-categories-content').attr().addClass('aaaaaaaa');
