@@ -368,8 +368,8 @@
                         <div class="suppliers-body">
                             <div class="suppliers-table mt-3">
                                 <!-- one row -->
-                                @for ($i = 0; $i < 3; $i++)
-                                <div class="suppliers-table-row d-flex justify-content-between">
+                                @for ($i = 0; $i < 5; $i++)
+                                <div class="suppliers-table-row  {{ ($i < 3)?  "suppliers-always-in-list" : "suppliers-in-filter" }}  justify-content-between">
                                     <div class="suppliers-table-cell d-flex align-items-center">
                                         <i class="suppliers-seller-icon fa fa-plus-circle ml-2"></i>
                                         <div class="suplliers-seller wrapper">
@@ -408,6 +408,9 @@
                                 </div>
                                 @endfor
                                 <!-- end of a row -->
+                                <div class="mt-2">
+                                    <a href="" class="btn-link-blue" id="suppliers-more-btn"><span class="pl-2">نمایش فروشنده های دیگر</span> <i class="fa fa-angle-down"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>

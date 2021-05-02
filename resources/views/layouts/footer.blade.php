@@ -198,9 +198,9 @@
 <script src="{{ asset('./assets/js/app.js') }}"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 @if(Route::getCurrentRoute()->uri == 'digikala')
-<script src="{{ asset('style/js/index.js') }}"></script>
+<script src="{{ asset('./assets/js/index.js') }}"></script>
 @elseif(Route::getCurrentRoute()->uri == 'single-product')
-<script src="{{ asset('style/js/single-product.js') }}"></script>
+<script src="{{ asset('./assets/js/single-product.js') }}"></script>
 @endif
 </body>
 

@@ -479,7 +479,15 @@ a:hover{
 }
 .suppliers-table-row{
     padding:1rem 0;
+    display: none;
 }
+.suppliers-in-list{
+    display: flex;
+}
+.suppliers-always-in-list{
+display: flex;
+}
+
 
 .suppliers-table-row:not(:first-child){
     border-top: 1px solid #dfdfdf;
