@@ -1,9 +1,9 @@
 <!-- component 7 -->
 
-<div class="component7 container-fluid">
+<div class="component7">
     <div class="component-body2">
         <div class="row my-border-top">
-            <div class="col-3">
+            <div class="col">
                 <div class="footer-links">
                     <div class="footer-link-header mb-2">راهنمای خرید از دیجی‌کالا</div>
                     <ul class="list-unstyled link-unstyled">
@@ -13,7 +13,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col">
                 <div class="footer-links">
                     <div class="footer-link-header mb-2">خدمات مشتریان</div>
                     <ul class="list-unstyled link-unstyled">
@@ -24,7 +24,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="d-none d-sm-flex col">
                 <div class="footer-links">
                     <div class="footer-link-header mb-2">با دیجی‌کالا</div>
                     <ul class="list-unstyled link-unstyled">
@@ -37,7 +37,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-3 ">
+            <div class="col-12 col-sm">
                 <form action="">
                     <fieldset>
                         <legend class="fieldset pt-4">
@@ -75,33 +75,56 @@
         </div>
         <div>
             <div class="footer-address pt-4">
-                <ul class="list-unstyled footer-contact d-flex justify-content-center">
+                <ul class="list-unstyled footer-contact d-flex flex-column flex-sm-row justify-content-center">
                     <li>
                         هفت روز هفته ، ۲۴ ساعت شبانه‌روز پاسخگوی شما هستیم
                     </li>
-                    <li class="pr-4">
+                    <li class="pr-sm-4">
                         شماره تماس :
                         ۶۱۹۳۰۰۰۰ - ۰۲۱
                     </li>
-                    <li class="pr-4">
+                    <li class="pr-sm-4">
                         آدرس ایمیل :
                         info@digikala.com
                     </li>
                 </ul>
             </div>
-            <div class="footer-address-image d-flex justify-content-center">
-                <a href="">
-                    <img src="{{ asset('./style/images/2.png')}}" c{{asset('lass="img-fluid" alt')}}="">
-                </a>
-                <a href="">
-                    <img src="{{ asset('./style/images/1.svg')}}" w{{asset('dth="150" class="img')}}-fluid" alt="">
-                </a>
-                <a href="">
-                    <img src="{{ asset('./style/images/2.svg')}}" c{{asset('ass="img-fluid" alt=')}}"">
-                </a>
-                <a href="">
-                    <img src="{{ asset('./style/images/3.png')}}" class="img-fluid" alt="">
-                </a>
+            <div class="row">
+                <div class="col">
+                    <div class="footer-address-image d-none d-sm-flex justify-content-center">
+                        <a href="">
+                            <img class="img-fluid" src="./style/images/2.png" alt="" width="150">
+                        </a>
+                        <a href="">
+                            <img class="img-fluid" src="./style/images/1.svg" alt="" width="150">
+                        </a>
+                        <a href="">
+                            <img class="img-fluid" src="./style/images/2.svg" alt="" width="150">
+                        </a>
+                        <a href="">
+                            <img class="img-fluid" src="./style/images/3.png" alt="" width="150">
+                        </a>
+                    </div>
+                    <div class="footer-address-image-responsive d-flex flex-column d-sm-none justify-content-center align-items-center">
+
+                        <div class="d-flex">
+                            <a href="">
+                                <img class="img-fluid" src="./style/images/2.png" alt="" width="150">
+                            </a>
+                            <a href="">
+                                <img class="img-fluid" src="./style/images/1.svg" alt="" width="150">
+                            </a>
+                        </div>
+                        <div class="d-flex">
+                            <a href="">
+                                <img class="img-fluid" src="./style/images/2.svg" alt="" width="150">
+                            </a>
+                            <a href="">
+                                <img class="img-fluid" src="./style/images/3.png" alt="" width="150">
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -109,7 +132,7 @@
 
 <!-- component 8 -->
 
-<div class="component8 container-fluid">
+<div class="component8 d-none d-sm-block">
     <div class="component-body3">
         <div class="row">
             <div class="col-8">
@@ -136,52 +159,56 @@
                 <aside>
                     <ul class="list-unstyled d-flex footer-safety-partner">
                         <li class="d-flex">
-                            <img class="img-fluid img8" width="90" src="{{asset('./style/images/4.png')}}" alt="">
+                            <img class="img-fluid img8" width="90" src="./style/images/4.png" alt="">
                         </li>
                         <li>
-                            <img class="img-fluid" src="{{asset('./style/images/5.png')}}" alt="">
+                            <img class="img-fluid" src="./style/images/5.png" alt="">
                         </li>
                         <li>
-                            <img class="img-fluid" src="{{asset('./style/images/6.png')}}" alt="">
+                            <img class="img-fluid" src="./style/images/6.png" alt="">
                         </li>
                     </ul>
                 </aside>
             </div>
         </div>
-        <nav class="footer-partners">
-            <ul class="list-unstyled d-flex justify-content-between">
-                <li>
-                    <a href="">
-                        <img src="{{asset('./style/images/3.svg')}}" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="{{asset('./style/images/4.svg')}}" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="{{asset('./style/images/5.svg')}}" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="{{asset('./style/images/6.svg')}}" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="{{asset('./style/images/7.svg')}}" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="{{asset('./style/images/8.svg')}}" alt="">
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        <div class="row">
+            <div class="col">
+                <nav class="footer-partners">
+                    <ul class="list-unstyled d-flex justify-content-between">
+                        <li>
+                            <a href="">
+                                <img class="img-fluid" src="./style/images/3.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img class="img-fluid" src="./style/images/4.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img class="img-fluid" src="./style/images/5.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img class="img-fluid" src="./style/images/6.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img class="img-fluid" src="./style/images/7.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img class="img-fluid" src="./style/images/8.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
         <div class="footer-copyright">
             <div class="copyright-text">
                 استفاده از مطالب فروشگاه اینترنتی دیجی‌کالا فقط برای مقاصد غیرتجاری و با ذکر منبع
@@ -190,6 +217,10 @@
             </div>
         </div>
     </div>
+</div>
+
+
+
 </div>
 
 {{--<script src="./style/js/jquery-3.5.1.min.js"></script>

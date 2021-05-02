@@ -22,7 +22,7 @@
 
 <body data-spy="scroll" data-target="#navbar-example2" data-offset="250">
 <!-- header and navbar 10 -->
-<header class="sticky-top">
+<header class="sticky-top d-none d-sm-block">
     <div class="component10">
         <div class="component-body10">
             <div class="row">

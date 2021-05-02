@@ -1,17 +1,14 @@
 if ($(window).width() < 900) {
     // console.log($(window).width());
     var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 2,
-        slidesPerGroup: 2,
+        slidesPerView: 1,
+        slidesPerGroup: 1,
         spaceBetween: 30,
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
         },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
+        
     });
 
 
@@ -72,10 +69,7 @@ $(window).resize(function () {
                 el: '.swiper-pagination',
                 clickable: true,
             },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
+            
         });
 
 
