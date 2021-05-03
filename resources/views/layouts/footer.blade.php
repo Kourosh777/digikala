@@ -132,10 +132,10 @@
 
 <!-- component 8 -->
 
-<div class="component8 d-none d-sm-block">
-    <div class="component-body3">
-        <div class="row">
-            <div class="col-8">
+<div class="component8 ">
+    <div class="component-body3 component8-padding-responsive">
+        <div class="row mx-0">
+            <div class="col-sm-8 p-0">
                 <div class="end-footer-content">
                     <h1>فروشگاه اینترنتی دیجی‌کالا، بررسی، انتخاب و خرید آنلاین</h1>
                     <p>
@@ -145,7 +145,7 @@
                         دیجی‌کالا با دنیایی از کالا رو به رو می‌شوید! هر آنچه که نیاز دارید و به ذهن شما خطور می‌کند
                         در اینجا پیدا خواهید کرد.
                     </p>
-                    <div class="link-unstyled">
+                    <div class="link-unstyled mb-3">
                         <a href="">اسباب بازی</a>
                         <a href="">عطر و ادوکلن</a>
                         <a href="">تلویزیون</a>
@@ -155,17 +155,17 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4">
                 <aside>
                     <ul class="list-unstyled d-flex footer-safety-partner">
                         <li class="d-flex">
-                            <img class="img-fluid img8" width="90" src="./style/images/4.png" alt="">
+                            <img class="img-fluid img8 img10" width="90" src="./style/images/4.png" alt="">
                         </li>
                         <li>
-                            <img class="img-fluid" src="./style/images/5.png" alt="">
+                            <img class="img-fluid" width="125" src="./style/images/5.png" alt="">
                         </li>
                         <li>
-                            <img class="img-fluid" src="./style/images/6.png" alt="">
+                            <img class="img-fluid" width="125" src="./style/images/6.png" alt="">
                         </li>
                     </ul>
                 </aside>
@@ -173,8 +173,8 @@
         </div>
         <div class="row">
             <div class="col">
-                <nav class="footer-partners">
-                    <ul class="list-unstyled d-flex justify-content-between">
+                <nav class="footer-partners pt-2">
+                    <ul class="list-unstyled d-flex justify-content-between flex-wrap">
                         <li>
                             <a href="">
                                 <img class="img-fluid" src="./style/images/3.svg" alt="">
@@ -222,6 +222,7 @@
 
 
 </div>
+
 
 {{--<script src="./style/js/jquery-3.5.1.min.js"></script>
 <script src="./style/js/popper.js"></script>

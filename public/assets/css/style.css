@@ -235,7 +235,7 @@ padding:0 2rem 2rem;
 .footer-safety-partner li{
     background-color: rgb(219, 245, 238);
     width: 150px;
-    height: 140px;
+    /* height: 140px; */
     padding: .5rem;
     margin: 0 .3rem;
     border-radius: .5rem;
@@ -494,6 +494,26 @@ border-left: .4px solid #e0d8d8;
     .footer-contact li{
         margin-top: .5rem;
     }
+    .img10{
+        height: 60px;
+    }
+    nav.footer-partners li{
+        width: calc(33.33% - 1rem);
+        margin-top:.5rem ;
+    }
+    /* .component-body3 {
+        padding: 1rem .6rem;
+    } */
+    .component8-padding-responsive{
+        padding: 1rem 1rem;
+    }
+    .component-6-responsive div.brand-item{
+        width: calc(20%);
+    }
+    .footer-copyright {
+        padding: 1rem .5rem;
+        
+    }
     
 }
 .brand-item{
@@ -506,7 +526,7 @@ border-left: .4px solid #e0d8d8;
 .img9{
     border-radius: .5rem;
     background-color: white;
-    padding: .5rem;
+    padding: .3rem;
 }
 .brand-row{
 margin-top:1rem;
