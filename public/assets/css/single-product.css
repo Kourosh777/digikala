@@ -1096,3 +1096,10 @@ margin-top: 1rem;
 .product-description-container{
 /* position: relative; */
 }
+
+/* sreponsive */
+@media (max-width:576px){
+.coments-photos-container{
+    display: none !important;
+}
+}

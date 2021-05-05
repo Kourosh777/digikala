@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style/css/bootstrap-rtl.css">
     <link href="./style/css/all.css" rel="stylesheet">
     --}}
+{{--    <link rel="stylesheet" href="{{ asset('./assets/css/app.css') }}">--}}
     <link rel="stylesheet" href="{{ asset('./assets/css/app.css') }}">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     {{--<link href="./style/css/swiperjs.css" rel="stylesheet">

@@ -8,7 +8,7 @@
 body{
     direction: rtl;
     text-align: right;
-    font-family: Shabnam,sans-serif;
+    font-family: Shabnam,sans-serif ;
 }
 .jumbotron .container {
     max-width: 40rem;
