@@ -1,5 +1,12 @@
 
-@extends('layouts.master')
+@extends('layouts.layout')
+@push('stylesheets')
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+@endpush
+@push('scripts')
+    <script src="{{ asset('./assets/js/index.js') }}"></script>
+@endpush
+@section('title','دیجی کالا')
 @section('content')
     <div class="main-container">
         <!-- component 1 -->
@@ -82,7 +89,7 @@
                                     <img class="img-fluid img3" src="./style/images/11.jpg" width="437" alt="">
                                 </a>
                             </div>
-                            <div class="col px-1">
+                            <div class="col px-1 mt-sm-3">
                                 <a href="">
                                     <img class="img-fluid img3" src="./style/images/12.jpg" width="437" alt="">
                                 </a>

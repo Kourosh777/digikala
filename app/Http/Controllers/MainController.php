@@ -88,4 +88,9 @@ class MainController extends Controller
 
         return view('single-product', compact('product_params', 'comments', 'questions','product_general_params'));
     }
+
+    public function responsiveProduct()
+    {
+        return view('responsive-product');
+    }
 }

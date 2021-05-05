@@ -7,13 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="style/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/css/bootstrap-rtl.css"> -->
-    <link href="./style/css/all.css" rel="stylesheet">
-    <link href="./style/css/fontawesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link href="./style/css/swiperjs.css" rel="stylesheet">
-    <link rel="stylesheet" href="./style/css/font.css">
+{{--    <link href="./style/css/all.css" rel="stylesheet">--}}
+{{--    <link href="./style/css/fontawesome.min.css" rel="stylesheet">--}}
+{{--    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />--}}
+{{--    <link href="./style/css/swiperjs.css" rel="stylesheet">--}}
+{{--    <link rel="stylesheet" href="./style/css/font.css">--}}
+    <link rel="stylesheet" href="{{ asset('./assets/css/app.css') }}">
+
     <!-- <link rel="stylesheet" href="style/css/style.css"> -->
-    <link rel="stylesheet" href="./style/css/responsive-single-product.css">
+    <link rel="stylesheet" href="./assets/css/responsive-single-product.css">
     <title>Document</title>
 </head>
 
@@ -122,18 +124,18 @@
             </section>
             <section class="section-margin product-color">
                 <a href="" class="product-color-row">
-                    
+
                         <span class="product-tab-name">
                             رنگ:
                             <span class="circle-color"></span>
                             <span class="product-color">سفید</span>
                         </span>
                         <span class="product-tab-value">
-                            
+
                     (۳ رنگ)
                 <i class="fas fa-angle-down"></i>
                         </span>
-                    
+
                 </a>
             </section>
             <section class="section-margin">
@@ -145,7 +147,7 @@
                         <span class="digiplus-box-title">خدمات ویژه کاربران دیجی‌پلاس </span>
                     </div>
                     <div class="digiplus-row">
-                        
+
                         <span class="digiplus-box-description"><i class="fas fa-truck"></i>ارسال رایگان</span>
                     </div>
                     <div class="digiplus-row">

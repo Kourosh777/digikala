@@ -1,4 +1,12 @@
-@extends('layouts.master')
+@extends('layouts.layout')
+@section('title','دیجی کالا')
+@push('stylesheets')
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/single-product.css') }}">
+@endpush
+@push('scripts')
+    <script src="{{ asset('./assets/js/single-product.js') }}"></script>
+@endpush
 @section('content')
     <div class="main">
         <!-- component product -->
