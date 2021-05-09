@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./style/css/font.css">--}}
 
     <link rel="stylesheet" href="{{ asset('./assets/css/app.css') }}">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+{{--    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />--}}
     @stack('stylesheets')
 
 
@@ -1035,7 +1035,9 @@
 <script src="./style/js/popper.js"></script>
 <script src="./style/js/bootstrap.js"></script>--}}
 <script src="{{ asset('./assets/js/app.js') }}"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="{{ asset('./assets/js/swiper-bundle.min.js') }}"></script>
+{{--<script src="./resources/js/restemp.js"></script>--}}
+{{--<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>--}}
 @stack('scripts')
 
 

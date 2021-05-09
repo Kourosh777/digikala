@@ -1,3 +1,4 @@
+
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 });
@@ -15,7 +16,7 @@ $('.dropdown-categories a').mouseenter(function () {
 
     $('.nav-adds-container').each(function (index, element) {
     $(this).removeClass('add-active');
-   
+
 });
 $(".nav-adds-container[data-index='" + a + "']").addClass('add-active');
     // console.log(b.text());
@@ -27,60 +28,13 @@ $(".nav-adds-container[data-index='" + a + "']").addClass('add-active');
 
 
 
-// swiperslide js codes
-if ($(window).width() < 900) {
-    // console.log($(window).width());
-    var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 2,
-        slidesPerGroup: 2,
-        spaceBetween: 30,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    });
-
-
-} else {
-    var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 5,
-        slidesPerGroup: 5,
-        spaceBetween: 30,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    });
-
-    var swiper2 = new Swiper('.swiper-container2', {
-        slidesPerView: 4,
-        slidesPerGroup: 4,
-        spaceBetween: 20,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    });
-}
 
 
 // check if is scroll down
 var lastScrollTop = 0;
 $(window).scroll(function (event) {
 
-    console.log('aaa');
+    // console.log('aaa');
     var st = $(this).scrollTop();
     if (st > lastScrollTop) {
         // $('.navbar-container').addClass('nav-notshown');
@@ -100,7 +54,7 @@ $(window).scroll(function (event) {
     }
     setTimeout(function () {
         lastScrollTop = st;
-        console.log('bbbb');
+        // console.log('bbbb');
     }, 500);
 
 });
@@ -143,7 +97,7 @@ $('#text-span-btn').click(function(event){
         $('#text-span-btn i').toggleClass('fa-angle-down fa-angle-up');
         $('#text-span-btn span').text('مشاهده کمتر');
     }
-   
+
 
 });
 
@@ -160,7 +114,7 @@ $('#collapse-param-btn').click(function(event){
         $('#collapse-param-btn i').toggleClass('fa-angle-down fa-angle-up');
         $('#collapse-param-btn span').text('فقط نمایش مشخصات کلی کالا');
     }
-   
+
 
 });
 
@@ -178,9 +132,60 @@ $('#suppliers-more-btn').click(function(event){
         $('#suppliers-more-btn i').toggleClass('fa-angle-down fa-angle-up');
         $('#suppliers-more-btn span').text('نمایش کمتر');
     }
-   
+
 
 });
+
+
+// swiperslide js codes
+
+    if ($(window).width() < 900) {
+        // console.log($(window).width());
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 2,
+            slidesPerGroup: 2,
+            spaceBetween: 30,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+
+    } else {
+
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 5,
+            slidesPerGroup: 5,
+            spaceBetween: 30,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+        var swiper2 = new Swiper('.swiper-container2', {
+            slidesPerView: 4,
+            slidesPerGroup: 4,
+            spaceBetween: 20,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    }
 
 
 // $('.btn-link-blue').click(function(event){

@@ -122,7 +122,7 @@
                                             <div class="col-7">
                                                 <div class="product-config">
                                                     <span class="product-title-en">
-                                                        Samsung Galaxy A12 SM-A125F/DS Dual SIM 64GB Mobile Phone
+                                                        {{ $product_title }}
                                                     </span>
                                                     <div class="product-engagement d-flex">
                                                         <div class="product-engagement-item">
@@ -178,26 +178,11 @@
                                                                 ویژگی های کالا
                                                             </div>
                                                             <ul class="list-unstyled">
+                                                                @foreach($product_header_params as $key=> $header_param)
                                                                 <li>
-                                                                    <span>حافظه داخلی: </span><span> 64 گیگابایت </span>
+                                                                    <span>{{ $key }}</span><span> {{ $header_param }} </span>
                                                                 </li>
-                                                                <li>
-                                                                    <span>شبکه های ارتباطی:
-                                                                    </span><span> 4G، 3G، 2G </span>
-                                                                </li>
-                                                                <li>
-                                                                    <span>دوربین‌های پشت گوشی:
-                                                                    </span><span> 4 ماژول دوربین </span>
-                                                                </li>
-                                                                <li>
-                                                                    <span>سیستم عامل: </span><span> Android
-                                                                    </span>
-                                                                </li>
-                                                                <li>
-                                                                    <span>توضیحات سیم کارت:
-                                                                    </span><span> سایز نانو (8.8 × 12.3 میلی‌متر)
-                                                                    </span>
-                                                                </li>
+                                                                @endforeach
                                                             </ul>
                                                         </div>
                                                         <div class="product-additional-info d-flex align-items-center">
@@ -493,8 +478,7 @@
                             <article class="pt-3">
                                 <div class="box-header">
                                     <span class="o-box_title">نقد و بررسی اجمالی</span>
-                                    <span class="o-box_header-desc">Samsung Galaxy A12 SM-A125F/DS Dual SIM 64GB Mobile
-                                        Phone</span>
+                                    <span class="o-box_header-desc">{{ $product_title }}</span>
                                 </div>
                                 <section class="product-expert-content-text pb-4">
                                     <div class="expert-text mask-text">
@@ -527,8 +511,7 @@
                             <article class="pb-3">
                                 <div class="box-header pt-4">
                                     <span class="o-box_title">مشخصات کالا</span>
-                                    <span class="o-box_header-desc">Samsung Galaxy A12 SM-A125F/DS Dual SIM 64GB Mobile
-                                        Phone</span>
+                                    <span class="o-box_header-desc">{{ $product_title }}</span>
                                 </div>
                                 {{--<section class="d-flex pt-3 pb-5">
                                     <h3 class="product-params-title">مشخصات کلی</h3>
@@ -591,8 +574,7 @@
                         <div class="comments-container" id="comments">
                             <div class="box-header pt-4">
                                 <span class="o-box_title">امتیاز و دیدگاه کاربران</span>
-                                <span class="o-box_header-desc">Samsung Galaxy A12 SM-A125F/DS Dual SIM 64GB Mobile
-                                    Phone</span>
+                                <span class="o-box_header-desc">{{ $product_title }}</span>
                             </div>
                             <div class="comments-body pt-5">
                                 <div class="row">
@@ -754,21 +736,11 @@
                                         </div>
                                         <div class="comments-photos">
                                             <div class="coments-photos-container d-flex pt-4">
+                                                @for ($i = 1; $i <=5 ; $i++)
                                                 <div class="comment-photo-thumb">
-                                                    <img src="./style/images/1.jpeg" alt="">
+                                                    <img src="{{ asset('./style/images/1.jpeg')}}" alt="">
                                                 </div>
-                                                <div class="comment-photo-thumb">
-                                                    <img src="./style/images/1.jpeg" alt="">
-                                                </div>
-                                                <div class="comment-photo-thumb">
-                                                    <img src="./style/images/1.jpeg" alt="">
-                                                </div>
-                                                <div class="comment-photo-thumb">
-                                                    <img src="./style/images/1.jpeg" alt="">
-                                                </div>
-                                                <div class="comment-photo-thumb">
-                                                    <img src="./style/images/1.jpeg" alt="">
-                                                </div>
+                                                @endfor
                                             </div>
                                         </div>
                                         <div class="sort-row d-flex align-items-center">
@@ -797,36 +769,12 @@
 
                                         <div class="comments-pagination d-flex justify-content-center">
                                             <ul class="pagination-items list-unstyled d-flex">
-                                                <li class="pagination-item pager-item-active">
-                                                    <a href="" class="pager-item">1</a>
+
+                                                @for ($i = 1; $i <= 10; $i++)
+                                                <li class="pagination-item {{ $i==1? 'pager-item-active':'' }}">
+                                                    <a href="" class="pager-item">{{ $i }}</a>
                                                 </li>
-                                                <li class="pagination-item">
-                                                    <a href="" class="pager-item">2</a>
-                                                </li>
-                                                <li class="pagination-item">
-                                                    <a href="" class="pager-item">3</a>
-                                                </li>
-                                                <li class="pagination-item">
-                                                    <a href="" class="pager-item">4</a>
-                                                </li>
-                                                <li class="pagination-item">
-                                                    <a href="" class="pager-item">5</a>
-                                                </li>
-                                                <li class="pagination-item">
-                                                    <a href="" class="pager-item">6</a>
-                                                </li>
-                                                <li class="pagination-item">
-                                                    <a href="" class="pager-item">7</a>
-                                                </li>
-                                                <li class="pagination-item">
-                                                    <a href="" class="pager-item">8</a>
-                                                </li>
-                                                <li class="pagination-item">
-                                                    <a href="" class="pager-item">9</a>
-                                                </li>
-                                                <li class="pagination-item">
-                                                    <a href="" class="pager-item">10</a>
-                                                </li>
+                                                @endfor
                                                 <li class="pagination-item">
                                                     <a href="" class="pager-item">
                                                         <i class="fa fa-angle-double-left"></i>
@@ -842,8 +790,7 @@
                         <div class="product-question-container" id="questions">
                             <div class="box-header pt-4">
                                 <span class="o-box_title">پرسش و پاسخ</span>
-                                <span class="o-box_header-desc">Samsung Galaxy A12 SM-A125F/DS Dual SIM 64GB Mobile
-                                    Phone</span>
+                                <span class="o-box_header-desc">{{ $product_title }}</span>
                             </div>
                             <div class="product-question-body pt-4">
                                 <div class="row">

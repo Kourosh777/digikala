@@ -13,6 +13,13 @@ class MainController extends Controller
 
     public function product()
     {
+        $product_title='Samsung Galaxy A12 SM-A125F/DS Dual SIM 64GB Mobile Phone';
+        $product_header_params=['حافظه داخلی:' => '64 گیگابایت',
+            'شبکه های ارتباطی:' => '4G، 3G، 2G',
+            'دوربین‌های پشت گوشی:' => ' 4 ماژول دوربین',
+            'سیستم عامل:' => 'Android',
+            'توضیحات سیم کارت:' => 'سایز نانو (8.8 × 12.3 میلی‌متر)',
+        ];
         $product_general_params=[
             'مشخصات کلی' => ['ابعاد' => '164x75.8x8.9 ',
                 'توضیحات سیم کارت' => 'سایز نانو (8.8 × 12.3 میلی‌متر)',
@@ -86,7 +93,7 @@ class MainController extends Controller
             ],
         ];
 
-        return view('single-product', compact('product_params', 'comments', 'questions','product_general_params'));
+        return view('single-product', compact('product_params', 'comments', 'questions','product_general_params','product_title','product_header_params'));
     }
 
     public function responsiveProduct()
