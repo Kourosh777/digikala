@@ -12,6 +12,12 @@ $('.dropdown-categories a').mouseenter(function () {
     });
     var a = $(this).attr('data-index');
     var b = $(".dropdown-categories-content[data-index='" + a + "']").addClass('is-active');
+
+    $('.nav-adds-container').each(function (index, element) {
+    $(this).removeClass('add-active');
+   
+});
+$(".nav-adds-container[data-index='" + a + "']").addClass('add-active');
     // console.log(b.text());
     // console.log(x.text());
 });

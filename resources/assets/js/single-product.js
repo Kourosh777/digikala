@@ -12,6 +12,12 @@ $('.dropdown-categories a').mouseenter(function () {
     });
     var a = $(this).attr('data-index');
     var b = $(".dropdown-categories-content[data-index='" + a + "']").addClass('is-active');
+
+    $('.nav-adds-container').each(function (index, element) {
+    $(this).removeClass('add-active');
+   
+});
+$(".nav-adds-container[data-index='" + a + "']").addClass('add-active');
     // console.log(b.text());
     // console.log(x.text());
 });
@@ -121,4 +127,64 @@ if(target.length) {
         scrollTop : target.offset().top-180
     },1000)
 }
-})
+});
+
+
+// text expand
+$('#text-span-btn').click(function(event){
+    event.preventDefault();
+    if($('.mask-text').hasClass('isExpand')){
+        $('.mask-text.isExpand').removeClass('isExpand');
+        $('#text-span-btn i').toggleClass('fa-angle-down fa-angle-up');
+        $('#text-span-btn span').text('ادامه مطلب');
+    }
+    else{
+        $('.mask-text').addClass('isExpand');
+        $('#text-span-btn i').toggleClass('fa-angle-down fa-angle-up');
+        $('#text-span-btn span').text('مشاهده کمتر');
+    }
+   
+
+});
+
+//params expand
+$('#collapse-param-btn').click(function(event){
+    event.preventDefault();
+    if($('.product-param-collapse').hasClass('is-open')){
+        $('.product-param-collapse').removeClass('is-open');
+        $('#collapse-param-btn i').toggleClass('fa-angle-down fa-angle-up');
+        $('#collapse-param-btn span').text('نمایش همه مشخصات کالا');
+    }
+    else{
+        $('.product-param-collapse').addClass('is-open');
+        $('#collapse-param-btn i').toggleClass('fa-angle-down fa-angle-up');
+        $('#collapse-param-btn span').text('فقط نمایش مشخصات کلی کالا');
+    }
+   
+
+});
+
+//suppliers expand
+
+$('#suppliers-more-btn').click(function(event){
+    event.preventDefault();
+    if($('.suppliers-in-filter').hasClass('suppliers-in-list')){
+        $('.suppliers-in-filter').removeClass('suppliers-in-list');
+        $('#suppliers-more-btn i').toggleClass('fa-angle-down fa-angle-up');
+        $('#suppliers-more-btn span').text('نمایش فروشنده های دیگر');
+    }
+    else{
+        $('.suppliers-in-filter').addClass('suppliers-in-list');
+        $('#suppliers-more-btn i').toggleClass('fa-angle-down fa-angle-up');
+        $('#suppliers-more-btn span').text('نمایش کمتر');
+    }
+   
+
+});
+
+
+// $('.btn-link-blue').click(function(event){
+//     event.preventDefault();
+// $('.mask-text').addClass('isExpand');
+// });
+

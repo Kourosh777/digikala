@@ -1,17 +1,14 @@
 if ($(window).width() < 900) {
     // console.log($(window).width());
     var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 2,
-        slidesPerGroup: 2,
+        slidesPerView: 1,
+        slidesPerGroup: 1,
         spaceBetween: 30,
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
         },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
+        
     });
 
 
@@ -72,10 +69,7 @@ $(window).resize(function () {
                 el: '.swiper-pagination',
                 clickable: true,
             },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
+            
         });
 
 
@@ -111,6 +105,14 @@ $(window).resize(function () {
 });
 
 
+// searchbox style
+$('.search-input').focus(function(){
+    $('.search-icon').addClass('bg-white');
+})
+$('.search-input').focusout(function(){
+    $('.search-icon').removeClass('bg-white');
+})
+
 // changing navbar content with js:
 $('.dropdown-categories a').mouseenter(function () {
     //    var x= $('.dropdown-categories-content').attr().addClass('aaaaaaaa');
@@ -122,6 +124,12 @@ $('.dropdown-categories a').mouseenter(function () {
     });
     var a = $(this).attr('data-index');
     var b = $(".dropdown-categories-content[data-index='" + a + "']").addClass('is-active');
+
+    $('.nav-adds-container').each(function (index, element) {
+        $(this).removeClass('add-active');
+       
+    });
+    $(".nav-adds-container[data-index='" + a + "']").addClass('add-active');
     // console.log(b.text());
     //    console.log(x.text());
 });

@@ -30,7 +30,7 @@
 
 <body data-spy="scroll" data-target="#navbar-example2" data-offset="250">
 <!-- header and navbar 10 -->
-<header class="sticky-top d-none d-sm-block">
+{{--<header class="sticky-top d-none d-sm-block">
     <div class="component10">
         <div class="component-body10">
             <div class="row">
@@ -291,6 +291,465 @@
 
 
                                                 </ul>
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="">
+                                            <div class="nav-item-name">
+                                                <i class="fa fa-tag" aria-hidden="true"></i>
+                                                دسته بندی کالاها
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="">
+                                            <div class="nav-item-name">
+                                                <i class="fa fa-tag" aria-hidden="true"></i>
+                                                دسته بندی کالاها
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="">
+                                            <div class="nav-item-name">
+                                                <i class="fa fa-tag" aria-hidden="true"></i>
+                                                دسته بندی کالاها
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="nav-left">
+
+                                <a href="">
+                                    <div class="nav-item-name">
+
+                                        لطفا شهر و استان خود را انتخاب کنید
+                                        <i class="fa fa-map-marker-alt mr-2" aria-hidden="true"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>--}}
+<header class="sticky-top d-none d-sm-block">
+    <div class="component10">
+        <div class="component-body10">
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-7">
+                            <div class="header-right d-flex align-items-center">
+                                <div class="logo">
+                                    <a href="">
+                                        <img src="./style/images/logo.svg" width="110" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="input-group header-search">
+                                    <div class="input-group-prepend">
+                                            <span
+                                                class="input-group-text border-left-0 search-icon header-search-border"
+                                                id="basic-addon1"><i class="fa fa-search" aria-hidden="true"></i></span>
+                                    </div>
+                                    <input type="text"
+                                           class="form-control input-group-text border-right-0 text-right search-input header-search-border"
+                                           placeholder="جستجو در دیجی کالا ..." aria-label="Username"
+                                           aria-describedby="basic-addon1">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-5 align-self-center">
+                            <div class="header-left d-flex justify-content-end align-items-center">
+                                <div class=" align-self-center">
+                                    <a href="" class="header-btn"><i class="fa fa-user ml-3"
+                                                                     aria-hidden="true"></i>ورود به حساب کاربری</a>
+                                </div>
+                                <div class="header-icon-shop mr-5">
+                                    <a href="" class="header-icon-shop-color">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row navbar-container">
+                <div class="col">
+                    <nav>
+                        <div class="nav-container row justify-content-between">
+                            <div class="nav-menu col-8">
+                                <ul class="nav-list list-unstyled d-flex mb-0">
+                                    <li class="nav-item  dropdown">
+                                        <a href="">
+                                            <div class="nav-item-name">
+                                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                                دسته بندی کالاها
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-details">
+                                            <div class="dropdown-categories d-flex flex-column">
+                                                <a href="" data-index="1"><i class="fa fa-laptop ml-2"
+                                                                             aria-hidden="true"></i>کالای
+                                                    دیجیتال </a>
+                                                <a href="" data-index="2"><i class="fa fa-laptop ml-2"
+                                                                             aria-hidden="true"></i>خودرو، ابزار و تجهیزات صنعتی </a>
+                                                <a href="" data-index="3"><i class="fa fa-laptop ml-2"
+                                                                             aria-hidden="true"></i>مد و پوشاک </a>
+                                                <a href="" data-index="4"><i class="fa fa-laptop ml-2"
+                                                                             aria-hidden="true"></i>کالای
+                                                    دیجیتال </a>
+                                                <a href="" data-index="5"><i class="fa fa-laptop ml-2"
+                                                                             aria-hidden="true"></i>کالای
+                                                    دیجیتال </a>
+                                            </div>
+                                            <div class="dropdown-content-container">
+                                                <div class="dropdown-categories-content is-active" data-index="1">
+                                                    <div class="dropdown-content-header">
+                                                        <a href="">
+
+                                                            همه دسته‌بندی‌های کالای دیجیتال
+                                                            <i class="fa fa-angle-left mr-2" aria-hidden="true"></i>
+                                                        </a>
+                                                    </div>
+                                                    <ul
+                                                        class="list-unstyled dropdown-content pt-0 d-flex flex-column flex-wrap">
+                                                        <li class="navlist-title"><a href="">
+                                                                لوازم جانبی گوشی </a>
+                                                            <i class="fas fa-angle-left pr-2"></i>
+                                                        </li>
+                                                        <li><a href="">
+
+                                                                پاور بانک (شارژر همراه)
+                                                            </a></li>
+                                                        <li><a href="">
+
+                                                                پایه نگهدارنده گوشی
+
+                                                            </a></li>
+                                                        <li class="navlist-title"><a href="">
+                                                                گوشی موبایل </a>
+                                                            <i class="fas fa-angle-left pr-2"></i>
+                                                        </li>
+                                                        <li><a href="">
+
+                                                                سامسونگ
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                هوآوی
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                اپل
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                شیائومی
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                آنر
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                نوکیا
+                                                            </a></li>
+                                                        <li class="navlist-title"><a href="">
+                                                                واقعیت مجازی </a>
+                                                            <i class="fas fa-angle-left pr-2"></i>
+                                                        </li>
+                                                        <li class="navlist-title"><a href="">
+                                                                مچ‌بند و ساعت هوشمند </a>
+                                                            <i class="fas fa-angle-left pr-2"></i>
+                                                        </li>
+                                                        <li class="navlist-title"><a href="">
+                                                                هدفون، هدست، هندزفری </a>
+                                                            <i class="fas fa-angle-left pr-2"></i>
+                                                        </li>
+                                                        <li class="navlist-title"><a href="">
+                                                                اسپیکر بلوتوث و با سیم </a>
+                                                            <i class="fas fa-angle-left pr-2"></i>
+                                                        </li>
+                                                        <li class="navlist-title"><a href="">
+                                                                هارد، فلش و SSD </a>
+                                                            <i class="fas fa-angle-left pr-2"></i>
+                                                        </li>
+                                                        <li class="navlist-title"><a href="">
+                                                                دوربین </a>
+                                                            <i class="fas fa-angle-left pr-2"></i>
+                                                        </li>
+                                                        <li><a href="">
+                                                                دوربین عکاسی دیجیتال
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                دوربین‌ ورزشی و فیلم برداری
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                دوربین‌ چاپ سریع
+                                                            </a></li>
+                                                        <li class="navlist-title"><a href="">
+                                                                لوازم جانبی دوربین </a>
+                                                            <i class="fas fa-angle-left pr-2"></i>
+                                                        </li>
+                                                        <li><a href="">
+                                                                لنز
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                کیف
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                کارت حافظه
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                کاغذ چاپ عکس
+                                                            </a></li>
+                                                        <li class="navlist-title"><a href="">
+                                                                دوربین دو چشمی و شکاری </a>
+                                                            <i class="fas fa-angle-left pr-2"></i>
+                                                        </li>
+                                                        <li class="navlist-title"><a href="">
+                                                                تلسکوپ </a>
+                                                            <i class="fas fa-angle-left pr-2"></i>
+                                                        </li>
+                                                        <li class="navlist-title"><a href="">
+                                                                پلی استیشن، ایکس باکس و بازی </a>
+                                                            <i class="fas fa-angle-left pr-2"></i>
+                                                        </li>
+                                                        <li class="navlist-title"><a href="">
+                                                                کامپیوتر و تجهیزات جانبی </a>
+                                                            <i class="fas fa-angle-left pr-2"></i>
+                                                        </li>
+                                                        <li><a href="">
+                                                                تجهیزات مخصوص بازی
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                مانیتور
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                کیس‌های اسمبل شده
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                قطعات داخلی کامپیوتر
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                کیف
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                کیف
+                                                            </a></li>
+
+
+                                                    </ul>
+                                                </div>
+                                                <div class="dropdown-categories-content" data-index="2">
+                                                    <div class="dropdown-content-header">
+                                                        <a href="">
+
+                                                            همه دسته‌بندی‌های وسایل نقلیه و صنعتی
+
+                                                            <i class="fa fa-angle-left mr-2" aria-hidden="true"></i>
+                                                        </a>
+                                                    </div>
+                                                    <ul
+                                                        class="list-unstyled dropdown-content pt-0 d-flex flex-column flex-wrap">
+                                                        <li class="navlist-title"><a href="">
+                                                                خودروهای ایرانی و خارجی </a>
+                                                            <i class="fas fa-angle-left pr-2"></i>
+                                                        </li>
+                                                        <li class="navlist-title"><a href="">
+                                                                موتور سیکلت </a>
+                                                            <i class="fas fa-angle-left pr-2"></i>
+                                                        </li>
+                                                        <li class="navlist-title"><a href="">
+                                                                لوازم جانبی خودرو و موتورسیکلت </a>
+                                                            <i class="fas fa-angle-left pr-2"></i>
+                                                        </li>
+                                                        <li><a href="">
+                                                                لوازم تزیینی
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                سیستم صوتی و تصویری
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                نظافت و نگهداری خودرو
+                                                            </a></li>
+                                                        <li class="navlist-title"><a href="">
+                                                                لوازم یدکی خودرو و موتورسیکلت </a>
+                                                            <i class="fas fa-angle-left pr-2"></i>
+                                                        </li>
+                                                        <li><a href="">
+                                                                دیسک و صفحه کلاچ
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                جلوبندی و تعلیق
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                چراغ خودرو
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                تسمه خودرو
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                کمک فنر
+                                                            </a></li>
+                                                        <li class="navlist-title"><a href="">
+                                                                لوازم مصرفی خودرو و موتورسیکلت </a>
+                                                            <i class="fas fa-angle-left pr-2"></i>
+                                                        </li>
+                                                        <li><a href="">
+                                                                لاستیک و تایر
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                لنت ترمز
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                روغن موتور و ضد یخ
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                مکمل سوخت و روغن و انواع فیلتر
+                                                            </a></li>
+                                                        <li class="navlist-title"><a href="">
+                                                                ابزار برقی</a>
+                                                            <i class="fas fa-angle-left pr-2"></i>
+                                                        </li>
+                                                        <li><a href="">
+                                                                دریل، پیچ گوشتی برقی و شارژی
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                فرز و سنگ رومیزی
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                موتور برق
+                                                            </a></li>
+
+
+                                                    </ul>
+                                                </div>
+                                                <div class="dropdown-categories-content" data-index="3">
+                                                    <div class="dropdown-content-header">
+                                                        <a href="">
+
+                                                            همه دسته‌بندی‌های مد و پوشاک
+
+                                                            <i class="fa fa-angle-left mr-2" aria-hidden="true"></i>
+                                                        </a>
+                                                    </div>
+                                                    <ul
+                                                        class="list-unstyled dropdown-content pt-0 d-flex flex-column flex-wrap">
+                                                        <li><a href="">
+                                                                لباس مردانه
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                لباس مردانه
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                لباس مردانه
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                لباس مردانه
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                لباس مردانه
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                لباس مردانه
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                لباس مردانه
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                لباس مردانه
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                لباس مردانه
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                لباس مردانه
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                لباس مردانه
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                لباس مردانه
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                لباس مردانه
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                لباس مردانه
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                لباس مردانه
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                لباس مردانه
+                                                            </a></li>
+
+
+                                                    </ul>
+                                                </div>
+                                                <div class="nav-adds-container add-active" data-index="1">
+                                                    <div class="add banner">
+                                                        <a href="">
+                                                            <div class="banner-item">
+                                                                <img src="./style/images/26.jpg" alt="">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="adds-brand-container">
+                                                        <h3></h3>
+                                                        <div class="adds-brand">
+                                                            <a href="">
+                                                                <div class="brand-item">
+                                                                    <img src="" alt="">
+                                                                </div>
+                                                            </a>
+                                                            <a href="">
+                                                                <div class="brand-item">
+                                                                    <img src="" alt="">
+                                                                </div>
+                                                            </a>
+                                                            <a href="">
+                                                                <div class="brand-item">
+                                                                    <img src="" alt="">
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="nav-adds-container" data-index="2">
+                                                    <div class="add banner">
+                                                        <a href="">
+                                                            <div class="banner-item">
+                                                                <img src="./style/images/27.jpg" alt="" width="400">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="adds-brand-container">
+                                                        <h3></h3>
+                                                        <div class="adds-brand">
+                                                            <a href="">
+                                                                <div class="brand-item">
+                                                                    <img src="" alt="">
+                                                                </div>
+                                                            </a>
+                                                            <a href="">
+                                                                <div class="brand-item">
+                                                                    <img src="" alt="">
+                                                                </div>
+                                                            </a>
+                                                            <a href="">
+                                                                <div class="brand-item">
+                                                                    <img src="" alt="">
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
 
