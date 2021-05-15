@@ -125,16 +125,16 @@
         <section class="section-margin product-color">
             <a href="" class="product-color-row">
 
-                        <span class="product-tab-name">
-                            رنگ:
-                            <span class="circle-color"></span>
-                            <span class="product-color">سفید</span>
-                        </span>
+                    <span class="product-tab-name">
+                        رنگ:
+                        <span class="circle-color"></span>
+                        <span class="product-color">سفید</span>
+                    </span>
                 <span class="product-tab-value">
 
-                    (۳ رنگ)
-                <i class="fas fa-angle-down"></i>
-                        </span>
+                        (۳ رنگ)
+                        <i class="fas fa-angle-down"></i>
+                    </span>
 
             </a>
         </section>
@@ -163,7 +163,9 @@
             <div class="warning-text-container ">
                 <div class="fas fa-exclamation-circle warning-icon"></div>
                 <span>
-                        هشدار سامانه همتا: حتما در زمان تحویل دستگاه، به کمک کد فعال‌سازی چاپ شده روی جعبه یا کارت گارانتی، دستگاه را از طریق #7777*، برای سیم‌کارت خود فعال‌سازی کنید. آموزش تصویری در آدرس اینترنتی hmti.ir/05
+                        هشدار سامانه همتا: حتما در زمان تحویل دستگاه، به کمک کد فعال‌سازی چاپ شده روی جعبه یا کارت
+                        گارانتی، دستگاه را از طریق #7777*، برای سیم‌کارت خود فعال‌سازی کنید. آموزش تصویری در آدرس
+                        اینترنتی hmti.ir/05
                     </span>
             </div>
         </section>
@@ -256,15 +258,284 @@
                             <span class="my-text-bold">۲ فروشنده</span>
                             دیگر این کالا
                         </div>
-                        <div class="product-sellers-extra">
-                            <i class="fa fa-angle-left"></i>
-                        </div>
+                    </div>
+                    <div class="product-sellers-extra">
+                        <i class="fa fa-angle-left"></i>
                     </div>
                 </div>
             </div>
         </section>
-    </article>
+        <a href="" class="product-white-box">
+            <div class="product-pricing">
+                <i class="fa fa-exclamation-circle"></i>
+                فرآیند قیمت‌گذاری، فروش و نظارت بر قیمت‌ها
+            </div>
+            <i class="fa fa-angle-left icon-angle-left3"></i>
+        </a>
+        <div class="product-lower-price">
+                <span>
+                    آیا قیمت مناسب‌تری سراغ دارید؟
+                </span>
+            <span class="product-lower-price-answer">
+                    بلی
+                </span>
 
+        </div>
+        <div class="free-shipping-badge">
+            <div class="free-shipping-badge-title">
+                <i class="fa fa-truck"></i>
+                ارسال رایگان سفارش
+            </div>
+            <div class="free-shipping-badge-text">
+                اولین سفارش کاربران جدید
+            </div>
+            <img src="./style/images/8.png" alt="">
+        </div>
+        <div class="section-margin">
+            <aside class="product-feature-four">
+                <div class="feature-item feature-item-1">
+                    <a href="">تحویل اکسپرس</a>
+                </div>
+                <div class="feature-item feature-item-2">
+                    <a href="">۷ روز ضمانت بازگشت کالا</a>
+                </div>
+                <div class="feature-item feature-item-3">
+                    <a href="">پرداخت در محل</a>
+                </div>
+                <div class="feature-item feature-item-4">
+                    <a href="">ضمانت اصل بودن کالا</a>
+                </div>
+            </aside>
+        </div>
+    </article>
+    <aside class="section-margin">
+            <span class="section-title">
+                محصولات مرتبط
+            </span>
+        <div class="product-row">
+            <div class="product-box">
+                <div class="product-box-content">
+                    <div>
+                        <a href="" class="product-box-image">
+                            <img src="./style/images/28.jpg" alt="">
+                        </a>
+                        <a href="" class="product-box-title">
+                            گوشی موبایل سامسونگ مدل Galaxy A10s SM-A107F/DS دو سیم کارت ظرفیت 32 گیگابایت
+                        </a>
+                    </div>
+                    <div class="product-box-price-wrapper">
+                        <div class="my-price">
+                            <div class="product-price-value">
+                                ۲,۷۸۹,۰۰۰
+                                <span class="product-price-currency">تومان</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-box">
+                <div class="product-box-content">
+                    <div>
+                        <a href="" class="product-box-image">
+                            <img src="./style/images/28.jpg" alt="">
+                        </a>
+                        <a href="" class="product-box-title">
+                            گوشی موبایل سامسونگ مدل Galaxy A10s SM-A107F/DS دو سیم کارت ظرفیت 32 گیگابایت
+                        </a>
+                    </div>
+                    <div class="product-box-price-wrapper">
+                        <div class="my-price">
+                            <div class="product-price-value">
+                                ۲,۷۸۹,۰۰۰
+                                <span class="product-price-currency">تومان</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-box">
+                <div class="product-box-content">
+                    <div>
+                        <a href="" class="product-box-image">
+                            <img src="./style/images/28.jpg" alt="">
+                        </a>
+                        <a href="" class="product-box-title">
+                            گوشی موبایل سامسونگ مدل Galaxy A10s SM-A107F/DS دو سیم کارت ظرفیت 32 گیگابایت
+                        </a>
+                    </div>
+                    <div class="product-box-price-wrapper">
+                        <div class="my-price">
+                            <div class="product-price-value">
+                                ۲,۷۸۹,۰۰۰
+                                <span class="product-price-currency">تومان</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-box">
+                <div class="product-box-content">
+                    <div>
+                        <a href="" class="product-box-image">
+                            <img src="./style/images/28.jpg" alt="">
+                        </a>
+                        <a href="" class="product-box-title">
+                            گوشی موبایل سامسونگ مدل Galaxy A10s SM-A107F/DS دو سیم کارت ظرفیت 32 گیگابایت
+                        </a>
+                    </div>
+                    <div class="product-box-price-wrapper">
+                        <div class="my-price">
+                            <div class="product-price-value">
+                                ۲,۷۸۹,۰۰۰
+                                <span class="product-price-currency">تومان</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <div class="section-margin">
+        <div class="product-text">
+            <div class="product-text-header">
+                <span>نقد و بررسی اجمالی</span>
+                <a href="" class="product-text-more">
+                    بیشتر
+                    <i class="fa fa-angle-left"></i>
+                </a>
+            </div>
+            <div class="product-text-content">
+                <p>
+
+                    گوشی A12 یکی دیگر از میان رده‌های شرکت سامسونگ است که در تاریخ 24 نوامبر 2020 معرفی شد. شرکت
+                    سامسونگ برای این محصول خود از یک صفحه‌نمایش 6.5 اینچی با رزولوشن 1600 در 720 پیکسل، استفاده کرده
+                    است. این صفحه‌نمایش در هر اینچ 264 پیکسل را نشان می‌دهد که از جزئیات و وضوح تصویر خوبی برخوردار
+                    است.
+
+                </p>
+            </div>
+            <div class="product-text-header">
+                <span>مشخصات فنی</span>
+                <a href="" class="product-text-more">
+                    بیشتر
+                    <i class="fa fa-angle-left"></i>
+                </a>
+            </div>
+            <div class="product-text-content">
+                <ul>
+                    <li>
+                        <span>حافظه داخلی: </span>
+                        <span>64 گیگابایت</span>
+                    </li>
+                    <li>
+                        <span>شبکه های ارتباطی: </span>
+                        <span>
+                                4G، 3G، 2G </span>
+                    </li>
+                    <li>
+                        <span>دوربین‌های پشت گوشی:  </span>
+                        <span>4 ماژول دوربین</span>
+                    </li>
+                    <li>
+                        <span>سیستم عامل:  </span>
+                        <span>Android</span>
+                    </li>
+                    <li>
+                        <span>توضیحات سیم کارت:  </span>
+                        <span>سایز نانو (8.8 × 12.3 میلی‌متر) </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- product slider -->
+    <aside class="section-margin">
+            <span class="section-title">
+                خریداران این محصول، محصولات زیر را هم خریده‌اند
+            </span>
+        <div class="product-row">
+            <div class="product-box">
+                <div class="product-box-content">
+                    <div>
+                        <a href="" class="product-box-image">
+                            <img src="./style/images/29.jpg" alt="">
+                        </a>
+                        <a href="" class="product-box-title">
+                            محافظ صفحه نمایش مدل FCG مناسب برای گوشی موبایل سامسونگ Galaxy A12
+                        </a>
+                    </div>
+                    <div class="product-box-price-wrapper">
+                        <div class="my-price">
+                            <div class="product-price-value">
+                                ۷,۱۹۰
+                                <span class="product-price-currency">تومان</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-box">
+                <div class="product-box-content">
+                    <div>
+                        <a href="" class="product-box-image">
+                            <img src="./style/images/29.jpg" alt="">
+                        </a>
+                        <a href="" class="product-box-title">
+                            محافظ صفحه نمایش مدل FCG مناسب برای گوشی موبایل سامسونگ Galaxy A12
+                        </a>
+                    </div>
+                    <div class="product-box-price-wrapper">
+                        <div class="my-price">
+                            <div class="product-price-value">
+                                ۷,۱۹۰
+                                <span class="product-price-currency">تومان</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-box">
+                <div class="product-box-content">
+                    <div>
+                        <a href="" class="product-box-image">
+                            <img src="./style/images/29.jpg" alt="">
+                        </a>
+                        <a href="" class="product-box-title">
+                            محافظ صفحه نمایش مدل FCG مناسب برای گوشی موبایل سامسونگ Galaxy A12
+                        </a>
+                    </div>
+                    <div class="product-box-price-wrapper">
+                        <div class="my-price">
+                            <div class="product-price-value">
+                                ۷,۱۹۰
+                                <span class="product-price-currency">تومان</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-box">
+                <div class="product-box-content">
+                    <div>
+                        <a href="" class="product-box-image">
+                            <img src="./style/images/29.jpg" alt="">
+                        </a>
+                        <a href="" class="product-box-title">
+                            محافظ صفحه نمایش مدل FCG مناسب برای گوشی موبایل سامسونگ Galaxy A12
+                        </a>
+                    </div>
+                    <div class="product-box-price-wrapper">
+                        <div class="my-price">
+                            <div class="product-price-value">
+                                ۷,۱۹۰
+                                <span class="product-price-currency">تومان</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
 </div>
 </body>
 

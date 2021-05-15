@@ -640,54 +640,12 @@
                                                     </div>
                                                     <ul
                                                         class="list-unstyled dropdown-content pt-0 d-flex flex-column flex-wrap">
+
+                                                        @for($i=0; $i<25 ;$i++)
                                                         <li><a href="">
                                                                 لباس مردانه
                                                             </a></li>
-                                                        <li><a href="">
-                                                                لباس مردانه
-                                                            </a></li>
-                                                        <li><a href="">
-                                                                لباس مردانه
-                                                            </a></li>
-                                                        <li><a href="">
-                                                                لباس مردانه
-                                                            </a></li>
-                                                        <li><a href="">
-                                                                لباس مردانه
-                                                            </a></li>
-                                                        <li><a href="">
-                                                                لباس مردانه
-                                                            </a></li>
-                                                        <li><a href="">
-                                                                لباس مردانه
-                                                            </a></li>
-                                                        <li><a href="">
-                                                                لباس مردانه
-                                                            </a></li>
-                                                        <li><a href="">
-                                                                لباس مردانه
-                                                            </a></li>
-                                                        <li><a href="">
-                                                                لباس مردانه
-                                                            </a></li>
-                                                        <li><a href="">
-                                                                لباس مردانه
-                                                            </a></li>
-                                                        <li><a href="">
-                                                                لباس مردانه
-                                                            </a></li>
-                                                        <li><a href="">
-                                                                لباس مردانه
-                                                            </a></li>
-                                                        <li><a href="">
-                                                                لباس مردانه
-                                                            </a></li>
-                                                        <li><a href="">
-                                                                لباس مردانه
-                                                            </a></li>
-                                                        <li><a href="">
-                                                                لباس مردانه
-                                                            </a></li>
+                                                        @endfor
 
 
                                                     </ul>
