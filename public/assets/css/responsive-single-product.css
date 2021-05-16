@@ -46,7 +46,7 @@ table {
 body {
     color: #515151;
     background: #f9f9f9;
-    padding-top: 106px;
+    /*padding-top: 106px;*/
 
     font-family: Shabnam,sans-serif;
     text-align: right;
@@ -288,7 +288,7 @@ a {
     justify-content: space-between;
     border: none;
 }
-.circle-color{
+.circle-color-res{
     border: 1px solid #000;
     border-radius: 100%;
     display: inline-block;

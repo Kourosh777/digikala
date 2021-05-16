@@ -1,14 +1,17 @@
 @extends('layouts.layout')
 @section('title','دیجی کالا')
 @push('stylesheets')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+
+
+    <link rel="stylesheet" href="{{ asset('assets/css/responsive-single-product.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/single-product.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 @endpush
 @push('scripts')
     <script src="{{ asset('./assets/js/single-product.js') }}"></script>
 @endpush
 @section('content')
-    <div class="main">
+    <div class="main  d-none d-md-block">
         <!-- component product -->
         <div class="container-fluid my-container p-0">
             <div class="component-product">
@@ -923,4 +926,5 @@
 
     </div>
 
+    @include('includes.responsive-product')
 @endsection

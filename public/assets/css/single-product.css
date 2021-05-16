@@ -453,7 +453,7 @@ a:hover{
     font-size: .857rem;
     line-height: 1.833;
 }
-.suppliers-sender i{ 
+.suppliers-sender i{
     color: #e6123d;
 }
 .suplliers-guarantte{
@@ -745,7 +745,7 @@ display: flex;
     font-size: 1.3rem;
 }
 .mini-buy-row:nth-of-type(3) i{
-    
+
     font-size: 1.3rem;
 }
 .mini-buy-row:nth-of-type(4) i{
@@ -875,7 +875,7 @@ display: flex;
     color: #00a049
 }
 .comment-content{
-    
+
     font-size: 1rem;
     line-height: 2.57;
     overflow: auto;
@@ -996,7 +996,7 @@ margin-top: 1rem;
     position: relative;
     border-radius: 8px;
     flex-shrink: 0;
-    
+
 
     width: 100%;
 
@@ -1032,6 +1032,11 @@ margin-top: 1rem;
     font-size: 18px;
     font-size: 1.286rem;
     margin: 0 3px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 .pager-item-active a{
@@ -1073,7 +1078,7 @@ margin-top: 1rem;
     line-height: 24px;
 }
 .question-item-title i{
-    color: #19bfd3; 
+    color: #19bfd3;
     font-size: 1.5rem;
     /* line-height: 24px; */
 }
@@ -1107,7 +1112,7 @@ margin-top: 1rem;
     border-color: rgb(206, 212, 218);
 }
 .header-search-border:focus{
-    border-color: rgb(206, 212, 218);
+    border-color: rgb(206, 212, 218) !important;
 }
 .adds-brand-container{
     width: 100%;
