@@ -516,7 +516,7 @@
             </div>
         </div>
     </aside>
-    <div class="comments-container">
+    <div class="comments-container-res">
         <div class="comments-headline">
             مفیدترین نظرات کاربران
             <a href="" class="comments-add">

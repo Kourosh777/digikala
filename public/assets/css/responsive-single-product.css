@@ -881,7 +881,7 @@ justify-content: space-between;
 }
 
 /* comments */
-.comments-container{
+.comments-container-res{
     border-radius: 9px;
     background-color: #fff;
     -webkit-box-shadow: 0 2px 4px 0 rgb(0 0 0 / 9%);
