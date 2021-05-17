@@ -154,7 +154,7 @@ max-width: 76px;
     border:1px solid #d8d8d8;
     background-color: rgb(74, 106, 194);
     border-radius: 5rem;
-    /* margin:auto auto; */
+     margin:auto auto;
 }
 .color-item{
     display: flex;
