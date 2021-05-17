@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'MainController@product');
-Route::get('/digikala', 'MainController@home');
+Route::get('/product', 'MainController@product');
+Route::get('/', 'MainController@home');
 Route::get('/responsive-product', 'MainController@responsiveProduct');
 

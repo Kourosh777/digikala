@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 @endpush
 @push('scripts')
+    <script src="{{ asset('./assets/js/responsive-single-product.js') }}"></script>
     <script src="{{ asset('./assets/js/single-product.js') }}"></script>
 @endpush
 @section('content')
-    <div class="main  d-none d-md-block">
+    <div class="main  d-none d-lg-block">
         <!-- component product -->
         <div class="container-fluid my-container p-0">
             <div class="component-product">
@@ -888,7 +889,7 @@
                 <div class="col-3">
                     <div class="product-mini-buy-box mt-4">
                         <div class="mini-buy-product-info d-flex">
-                            <img src="{{ asset('./style/images/25.jpg" alt="">
+                            <img src="{{ asset('./style/images/25.jpg') }}" alt="">
                             <div class="mini-product-info">
                                 <div class="mini-product-title">گوشی موبایل سامسونگ مدل Galaxy A12 SM-A125F/DS دو سیم
                                     کارت ظرفیت 64 گیگابایت</div>

@@ -338,7 +338,7 @@
         </div>
     </div>
 </header>--}}
-<header class="sticky-top d-none d-sm-block">
+<header class="sticky-top d-none d-lg-block">
     <div class="component10">
         <div class="component-body10">
             <div class="row">
