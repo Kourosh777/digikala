@@ -25,3 +25,12 @@ $('.header-burger').click(function(){
     $('.my-container').addClass('body-burger-is-active');
     }
     });
+
+
+
+
+    $('.burger-menu-category').click(function(event){
+        event.preventDefault();
+       $(this).toggleClass('burger-category-is-active');
+       $(this).children('i').toggleClass('fa-angle-down fa-angle-up');
+    });

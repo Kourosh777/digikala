@@ -1,6 +1,6 @@
 
 <div class="my-container">
-    <header class="my-header">
+    <header class="my-header d-lg-none">
         <div class="burger-overlay">
 
         </div>
@@ -20,7 +20,7 @@
                         <a href="" class="burger-menu-link">
                             <i class="fas fa-percent"></i>
                             پیشنهادها و تخفیف‌‌ها
-                            <i class="fa fa-angle-down icon-angle-down"></i>
+                            <!-- <i class="fa fa-angle-down icon-angle-down"></i> -->
                         </a>
                     </li>
                     <li>
@@ -71,58 +71,211 @@
                         </div>
                     </li>
                     <li>
-                        <a href="" class="burger-menu-category">
+                        <a href="" class="burger-menu-category ">
                             کالای دیجیتال
                             <i class="fa fa-angle-down icon-angle-down2"></i>
                         </a>
+                        <ul class="burger-menu-sublist">
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    همه موارد این دسته
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    لوازم جانبی گوشی
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    گوشی موبایل
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a href="" class="burger-menu-category">
                             خودرو، ابزار و تجهیزات صنعتی
                             <i class="fa fa-angle-down icon-angle-down2"></i>
                         </a>
+                        <ul class="burger-menu-sublist">
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    همه موارد این دسته
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    لوازم جانبی گوشی
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    گوشی موبایل
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a href="" class="burger-menu-category">
                             مد و پوشاک
                             <i class="fa fa-angle-down icon-angle-down2"></i>
                         </a>
+                        <ul class="burger-menu-sublist">
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    همه موارد این دسته
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    لوازم جانبی گوشی
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    گوشی موبایل
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a href="" class="burger-menu-category">
                             اسباب بازی، کودک و نوزاد
                             <i class="fa fa-angle-down icon-angle-down2"></i>
                         </a>
+                        <ul class="burger-menu-sublist">
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    همه موارد این دسته
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    لوازم جانبی گوشی
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    گوشی موبایل
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a href="" class="burger-menu-category">
                             کالاهای سوپرمارکتی
                             <i class="fa fa-angle-down icon-angle-down2"></i>
                         </a>
+                        <ul class="burger-menu-sublist">
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    همه موارد این دسته
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    لوازم جانبی گوشی
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    گوشی موبایل
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a href="" class="burger-menu-category">
                             زیبایی و سلامت
                             <i class="fa fa-angle-down icon-angle-down2"></i>
                         </a>
+                        <ul class="burger-menu-sublist">
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    همه موارد این دسته
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    لوازم جانبی گوشی
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    گوشی موبایل
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a href="" class="burger-menu-category">
                             خانه و آشپزخانه
                             <i class="fa fa-angle-down icon-angle-down2"></i>
                         </a>
+                        <ul class="burger-menu-sublist">
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    همه موارد این دسته
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    لوازم جانبی گوشی
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    گوشی موبایل
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a href="" class="burger-menu-category">
                             کتاب، لوازم تحریر و هنر
                             <i class="fa fa-angle-down icon-angle-down2"></i>
                         </a>
+                        <ul class="burger-menu-sublist">
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    همه موارد این دسته
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    لوازم جانبی گوشی
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    گوشی موبایل
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a href="" class="burger-menu-category">
                             ورزش و سفر
                             <i class="fa fa-angle-down icon-angle-down2"></i>
                         </a>
+                        <ul class="burger-menu-sublist">
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    همه موارد این دسته
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    لوازم جانبی گوشی
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="burger-menu-subcategory">
+                                    گوشی موبایل
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
