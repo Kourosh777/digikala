@@ -63,28 +63,28 @@
                                             </li>
                                         </ul>
                                         <div class="gallery-img">
-                                            <img class="img-fluid" src="./style/images/21.jpg" alt="">
+                                            <img class="img-fluid" src="{{ asset('./style/images/21.jpg') }}" alt="">
                                         </div>
                                     </div>
                                     <ul class="galerry-items list-unstyled d-flex">
                                         <li>
                                             <div class="product-image-thumbnail">
-                                                <img src="./style/images/21.jpg" alt="">
+                                                <img src="{{ asset('./style/images/21.jpg') }}" alt="">
                                             </div>
                                         </li>
                                         <li>
                                             <div class="product-image-thumbnail">
-                                                <img src="./style/images/22.jpg" alt="">
+                                                <img src="{{ asset('./style/images/22.jpg') }}" alt="">
                                             </div>
                                         </li>
                                         <li>
                                             <div class="product-image-thumbnail">
-                                                <img src="./style/images/23.jpg" alt="">
+                                                <img src="{{ asset('./style/images/23.jpg') }}" alt="">
                                             </div>
                                         </li>
                                         <li>
                                             <div class="product-image-thumbnail">
-                                                <img src="./style/images/24.jpg" alt="">
+                                                <img src="{{ asset('./style/images/24.jpg') }}" alt="">
                                             </div>
                                         </li>
                                     </ul>
@@ -430,7 +430,7 @@
                         <div class="swiper-wrapper d-flex">
                             @for ($i = 0; $i < 10; $i++)
                             <div class="card border-0 card-item swiper-slide">
-                                <img class="card-img-top img6" src="./style/images/19.jpg" alt="Card image cap">
+                                <img class="card-img-top img6" src="{{asset('./style/images/19.jpg') }}" alt="Card image cap">
                                 <div class="card-body">
                                     <h5 class="card-title mytitle2">گوشی موبایل شیائومی مدل POCO X3 M2007J20CG</h5>
                                     <div class="my-font-size">
@@ -888,7 +888,7 @@
                 <div class="col-3">
                     <div class="product-mini-buy-box mt-4">
                         <div class="mini-buy-product-info d-flex">
-                            <img src="./style/images/25.jpg" alt="">
+                            <img src="{{ asset('./style/images/25.jpg" alt="">
                             <div class="mini-product-info">
                                 <div class="mini-product-title">گوشی موبایل سامسونگ مدل Galaxy A12 SM-A125F/DS دو سیم
                                     کارت ظرفیت 64 گیگابایت</div>

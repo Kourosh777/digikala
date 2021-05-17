@@ -71,7 +71,7 @@
                 <div class="swiper-container">
                     <div>
                         <div class="product-img">
-                            <img src="./style/images/21.jpg" alt="">
+                            <img src="{{asset('./style/images/21.jpg')}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
         <section class="section-margin">
             <div class="digiplus-box">
                 <div class="digiplus-row">
-                    <img class="digiplus-logo" src="./style/images/10.svg" alt="">
+                    <img class="digiplus-logo" src="{{asset('./style/images/10.svg')}}" alt="">
                 </div>
                 <div class="digiplus-row">
                     <span class="digiplus-box-title">خدمات ویژه کاربران دیجی‌پلاس </span>
@@ -224,7 +224,7 @@
                     نفر درحال بازدید این کالا می‌باشند.
                 </div>
                 <div class="product-data-row product-digiclub">
-                    <img src="./style/images/7.png" alt="">
+                    <img src="{{asset('./style/images/7.png')}}" alt="">
                     <div>
                         <span>۱۵۰</span>
 
@@ -269,7 +269,7 @@
             <div class="free-shipping-badge-text">
                 اولین سفارش کاربران جدید
             </div>
-            <img src="./style/images/8.png" alt="">
+            <img src="{{asset('./style/images/8.png')}}" alt="">
         </div>
         <div class="section-margin">
             <aside class="product-feature-four">
@@ -297,7 +297,7 @@
                 <div class="product-box-content">
                     <div>
                         <a href="" class="product-box-image">
-                            <img src="./style/images/28.jpg" alt="">
+                            <img src="{{asset('./style/images/28.jpg')}}" alt="">
                         </a>
                         <a href="" class="product-box-title">
                             گوشی موبایل سامسونگ مدل Galaxy A10s SM-A107F/DS دو سیم کارت ظرفیت 32 گیگابایت
@@ -317,7 +317,7 @@
                 <div class="product-box-content">
                     <div>
                         <a href="" class="product-box-image">
-                            <img src="./style/images/28.jpg" alt="">
+                            <img src="{{asset('./style/images/28.jpg')}}" alt="">
                         </a>
                         <a href="" class="product-box-title">
                             گوشی موبایل سامسونگ مدل Galaxy A10s SM-A107F/DS دو سیم کارت ظرفیت 32 گیگابایت
@@ -337,7 +337,7 @@
                 <div class="product-box-content">
                     <div>
                         <a href="" class="product-box-image">
-                            <img src="./style/images/28.jpg" alt="">
+                            <img src="{{asset('./style/images/28.jpg')}}" alt="">
                         </a>
                         <a href="" class="product-box-title">
                             گوشی موبایل سامسونگ مدل Galaxy A10s SM-A107F/DS دو سیم کارت ظرفیت 32 گیگابایت
@@ -357,7 +357,7 @@
                 <div class="product-box-content">
                     <div>
                         <a href="" class="product-box-image">
-                            <img src="./style/images/28.jpg" alt="">
+                            <img src="{{asset('./style/images/28.jpg')}}" alt="">
                         </a>
                         <a href="" class="product-box-title">
                             گوشی موبایل سامسونگ مدل Galaxy A10s SM-A107F/DS دو سیم کارت ظرفیت 32 گیگابایت
@@ -438,7 +438,7 @@
                 <div class="product-box-content">
                     <div>
                         <a href="" class="product-box-image">
-                            <img src="./style/images/29.jpg" alt="">
+                            <img src="{{asset('./style/images/29.jpg')}}" alt="">
                         </a>
                         <a href="" class="product-box-title">
                             محافظ صفحه نمایش مدل FCG مناسب برای گوشی موبایل سامسونگ Galaxy A12
@@ -458,7 +458,7 @@
                 <div class="product-box-content">
                     <div>
                         <a href="" class="product-box-image">
-                            <img src="./style/images/29.jpg" alt="">
+                            <img src="{{asset('./style/images/29.jpg')}}" alt="">
                         </a>
                         <a href="" class="product-box-title">
                             محافظ صفحه نمایش مدل FCG مناسب برای گوشی موبایل سامسونگ Galaxy A12
@@ -478,7 +478,7 @@
                 <div class="product-box-content">
                     <div>
                         <a href="" class="product-box-image">
-                            <img src="./style/images/29.jpg" alt="">
+                            <img src="{{asset('./style/images/29.jpg')}}" alt="">
                         </a>
                         <a href="" class="product-box-title">
                             محافظ صفحه نمایش مدل FCG مناسب برای گوشی موبایل سامسونگ Galaxy A12
@@ -498,7 +498,7 @@
                 <div class="product-box-content">
                     <div>
                         <a href="" class="product-box-image">
-                            <img src="./style/images/29.jpg" alt="">
+                            <img src="{{asset('./style/images/29.jpg')}}" alt="">
                         </a>
                         <a href="" class="product-box-title">
                             محافظ صفحه نمایش مدل FCG مناسب برای گوشی موبایل سامسونگ Galaxy A12
@@ -525,7 +525,7 @@
             </a>
         </div>
         <div class="comments-digiclub">
-            <img src="./style/images/9.png" alt="">
+            <img src="{{asset('./style/images/9.png')}}" alt="">
             <div>
                 با ثبت نظر بر روی کالاهای خریداری شده
                 <span>۵</span>
@@ -533,6 +533,7 @@
             </div>
         </div>
         <ul class="comments-list">
+            @for($i=1; $i<=4 ; $i++)
             <li>
                 <div>
                     کاربر دیجی‌کالا
@@ -543,26 +544,8 @@
                     ولی واسه کسانی که با کار کردن سامسونگ راحتترن گزینه ی مناسبیه .
                 </p>
             </li>
-            <li>
-                <div>
-                    کاربر دیجی‌کالا
-                    <div>۲۹ دی ۱۳۹۹</div>
-                </div>
-                <p>
-                    تو بازه قیمتی خودش رقیبای سر سختی داره که به نسبت A12 ارزش خرید بیشتری دارن <br>
-                    ولی واسه کسانی که با کار کردن سامسونگ راحتترن گزینه ی مناسبیه .
-                </p>
-            </li>
-            <li>
-                <div>
-                    کاربر دیجی‌کالا
-                    <div>۲۹ دی ۱۳۹۹</div>
-                </div>
-                <p>
-                    تو بازه قیمتی خودش رقیبای سر سختی داره که به نسبت A12 ارزش خرید بیشتری دارن <br>
-                    ولی واسه کسانی که با کار کردن سامسونگ راحتترن گزینه ی مناسبیه .
-                </p>
-            </li>
+            @endfor
+
         </ul>
         <div class="comments-actions">
             <a href="" class="comments-show-more">
