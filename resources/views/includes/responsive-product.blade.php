@@ -314,6 +314,17 @@
 
 
 <div class="main-container-res d-lg-none">
+    <div>
+        <div class="general-location">
+                <span class="general-location-icon">
+                    <i class="fa fa-map-marker-alt icon-location"></i>
+                </span>
+            <span class="general-location-text">
+                    لطفا شهر و استان خود را انتخاب کنید
+                </span>
+            <i></i>
+        </div>
+    </div>
     <nav class="breadcrumb-container">
         <ol class="my-breadcrumb">
             <li class="breadcrumb-item">
