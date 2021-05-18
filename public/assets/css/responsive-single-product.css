@@ -1377,10 +1377,149 @@ justify-content: space-between;
     direction: rtl;
     padding: 10px 0;
 }
-{
+/* {
     list-style: none;
     padding: 10px 0;
     background-color: #f0f0f1;
     margin: 0 -20px;
     display: none;
+} */
+.remodal-wrapper{
+    
+
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    overflow: auto;
+    text-align: center;
+    padding: 0;
+
+    /* display: block; */
+}
+.remodal-full-screen{
+    width: 100%;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    margin: 0;
+    text-align: right;
+
+    max-width: 100%;
+
+    color: #2b2e38;
+    background-color: #f9f9f9;
+
+    position: relative;
+    outline: none;
+}
+.remodal-expert-review-container {
+    padding: 5px 8px;
+}
+.page-title-bar{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    justify-content: space-between;
+}
+.page-title-bar-holder{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.title-bar-icon{
+    display: flex;
+    padding: 0 16px;
+    align-items: center;
+}
+.title-bar-title{
+    font-size: 1.286rem;
+    line-height: 2;
+}
+.icon-arrow-right{
+    font-size: 1.1rem;
+    line-height: 1.692;
+}
+/* {
+    border-radius: 9px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 4px 0 rgb(0 0 0 / 9%);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 9%);
+    padding: 15px;
+} */
+.product-text-header h2{
+    font-size: 1.071rem;
+    line-height: 1.467;
+    letter-spacing: -.5px;
+    font-weight: 700;
+}
+.product-text-header h2 span{
+    font-size: .857rem;
+    line-height: 1.833;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+}
+.product-text-content{
+    color: #858585;
+    text-align: right;
+    font-size: .857rem;
+    line-height: 1.833;
+    margin-top: 15px;
+}
+.remodal-specs-container{
+    padding: 1rem 8px;
+    text-align: right;
+}
+.product-specs{
+    border-radius: 9px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 9%);
+    padding: 20px 15px;
+    margin: 10px 0;
+}
+.product-spec-headline{
+    color: #4a90e2;
+    font-size: 1rem;
+    line-height: 1.571;
+    letter-spacing: -.5px;
+    margin-bottom: 15px;
+}
+.table-spec{
+    border-top: 1px solid #e9e9e9;
+    color: #2a2a2a;
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 1.571;
+    margin-bottom: 20px;
+}
+.table-spec-item{
+    display: flex;
+    min-height: 43px;
+    flex-direction: column;
+}
+.table-spec-key{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 5px 9px;
+    background-color: #f1f1f1;
+}
+.table-spec-value{
+    padding: 10px 9px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.remodal-is-locked{
+    overflow: hidden!important;
+    touch-action: none!important;
 }

@@ -703,7 +703,7 @@
         <div class="product-text">
             <div class="product-text-header">
                 <span>نقد و بررسی اجمالی</span>
-                <a href="" class="product-text-more">
+                <a href="" class="product-text-more" id="show-more-expert-review">
                     بیشتر
                     <i class="fa fa-angle-left"></i>
                 </a>
@@ -720,7 +720,7 @@
             </div>
             <div class="product-text-header">
                 <span>مشخصات فنی</span>
-                <a href="" class="product-text-more">
+                <a href="" class="product-text-more" id="show-more-specs">
                     بیشتر
                     <i class="fa fa-angle-left"></i>
                 </a>
@@ -923,6 +923,136 @@
             </a>
         </div>
     </div>
+{{--  modals  --}}
+    <div class="remodal-wrapper">
+        <div class="remodal-full-screen remodal-expert-review">
+            <div class="remodal-expert-review-container">
+                <div class="page-title-bar">
+                    <div class="page-title-bar-holder">
+                        <div class="title-bar-icon">
+                            <i class="fa fa-arrow-right icon-arrow-right">
+                            </i>
+                        </div>
+                        <div class="title-bar-title">
+                            نقد و بررسی اجمالی
+                        </div>
+                    </div>
+                </div>
+                <div class="remodal-expert-review-content">
+                    <div class="section-margin">
+                        <article class="product-text">
+                            <div class="product-text-header">
+                                <h2>
+                                        <span>
+                                            گوشی موبایل سامسونگ مدل Galaxy A12 SM-A125F/DS دو سیم کارت ظرفیت 64 گیگابایت
+                                        </span>
+                                </h2>
+                            </div>
+                            <section class="product-text-content">
+                                <p>
+                                    گوشی A12 یکی دیگر از میان رده‌های شرکت سامسونگ است که در تاریخ 24 نوامبر 2020 معرفی شد. شرکت سامسونگ برای این محصول خود از یک صفحه‌نمایش 6.5 اینچی با رزولوشن 1600 در 720 پیکسل، استفاده کرده است. این صفحه‌نمایش در هر اینچ 264 پیکسل را نشان می‌دهد که از جزئیات و وضوح تصویر خوبی برخوردار است. تراشه‌ این محصول Mediatek MT6765 Helio P35 از تراشه‌های ۱۲ نانومتری سامسونگ است که با پردازنده مرکزی هشت هسته‌ای Cortex-A55 و پردازنده گرافیکی PowerVR GE8320 همراه شده است. این تراشه برای بازکردن چندین برنامه به‌صورت هم‌زمان و تماشای ویدئو مناسب است. این گوشی با 4 گیگابایت رم و 64 گیگابایت حافظه داخلی عرضه شده است و با استفاده از یک کارت حافظه‌ی جانبی قادر خواهید بود. بر روی قاب پشتی A12 یک دوربین چهارگانه قرار گرفته است. یک لنز عریض با رزولوشن 48 مگاپیکسل، یک لنز فوق عریض با رزولوشن 5 مگاپیکسل، یک لنز ماکرو با رزولوشن 2 مگاپیکسل و یک حسگر عمق 2 مگاپیکسلی مجموعه دوربین A12 را تشکیل می‌دهد. برای دوربین سلفی هم یک لنز 8 مگاپیکسلی از نوع عریض انتخاب شده است که در گوشه بالای صفحه‌نمایش قرار گرفته است. منبع انرژی گوشی A12 یک باتری لیتیوم-پلیمری با ظرفیت 5000 میلی‌آمپرساعت است که از فناوری شارژ سریع 15 واتی هم پشتیبانی می‌کند.
+                                </p>
+                            </section>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="remodal-wrapper">
+        <div class="remodal-full-screen remodal-specs">
+            <div class="remodal-specs-container">
+                <div class="page-title-bar">
+                    <div class="page-title-bar-holder">
+                        <div class="title-bar-icon">
+                            <i class="fa fa-arrow-right icon-arrow-right">
+                            </i>
+                        </div>
+                        <div class="title-bar-title">
+                            مشخصات فنی
+                        </div>
+                    </div>
+                </div>
+                <article class="product-specs">
+                    <h3 class="product-spec-headline">
+                        مشخصات کلی
+                    </h3>
+                    <div class="table-spec">
+                        <div class="table-spec-item">
+                            <div class="table-spec-key">
+                                ابعاد
+                            </div>
+                            <div class="table-spec-value">
+                                164x75.8x8.9 میلی‌متر
+                            </div>
+                        </div>
+                        <div class="table-spec-item">
+                            <div class="table-spec-key">
+                                توضیحات سیم کارت
+                            </div>
+                            <div class="table-spec-value">
+                                سایز نانو (8.8 × 12.3 میلی‌متر)
+                            </div>
+                        </div>
+                        <div class="table-spec-item">
+                            <div class="table-spec-key">
+                                وزن
+                            </div>
+                            <div class="table-spec-value">
+                                205 گرم
+                            </div>
+                        </div>
+                        <div class="table-spec-item">
+                            <div class="table-spec-key">
+                                ساختار بدنه
+                            </div>
+                            <div class="table-spec-value">
+                                قاب پشتی و فریم از پلاستیک
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="product-spec-headline">
+                        پردازنده
+                    </h3>
+                    <div class="table-spec">
+                        <div class="table-spec-item">
+                            <div class="table-spec-key">
+                                تراشه
+                            </div>
+                            <div class="table-spec-value">
+                                Mediatek MT6765 Helio P35 (12nm) Chipest
+                            </div>
+                        </div>
+                        <div class="table-spec-item">
+                            <div class="table-spec-key">
+                                پردازنده‌ی مرکزی
+                            </div>
+                            <div class="table-spec-value">
+                                Quad-Core Cortex-A53 & Quad-core Cortex-A53 CPU
+                            </div>
+                        </div>
+                        <div class="table-spec-item">
+                            <div class="table-spec-key">
+                                نوع پردازنده
+                            </div>
+                            <div class="table-spec-value">
+                                64 بیت
+                            </div>
+                        </div>
+                        <div class="table-spec-item">
+                            <div class="table-spec-key">
+                                فرکانس پردازنده‌ی مرکزی
+                            </div>
+                            <div class="table-spec-value">
+                                2.35 , 1.8  گیگاهرتز
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
 </div>
 </div>
 
