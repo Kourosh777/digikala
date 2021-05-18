@@ -313,7 +313,7 @@
     </header>
 
 
-<div class="main-container d-lg-none">
+<div class="main-container-res d-lg-none">
     <nav class="breadcrumb-container">
         <ol class="my-breadcrumb">
             <li class="breadcrumb-item">
