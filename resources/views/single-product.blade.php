@@ -10,6 +10,7 @@
 @push('scripts')
     <script src="{{ asset('./assets/js/responsive-single-product.js') }}"></script>
     <script src="{{ asset('./assets/js/single-product.js') }}"></script>
+
 @endpush
 @section('content')
     <div class="main  d-none d-lg-block">
@@ -427,7 +428,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col swiper-container">
+                    <div class="col swiper-container mySwiper">
                         <div class="swiper-wrapper d-flex">
                             @for ($i = 0; $i < 10; $i++)
                             <div class="card border-0 card-item swiper-slide">

@@ -392,12 +392,22 @@
             </div>
             <!-- swiper slider -->
             <div class=" swiper-product">
-                <div class="swiper-container">
-                    <div>
-                        <div class="product-img">
-                            <img src="{{asset('./style/images/21.jpg')}}" alt="">
+                <div class="swiper-container mySwiper3">
+                    <div dir="rtl" class="swiper-wrapper">
+                        <div class="swiper-slide product-img">
+                            <img src="./style/images/21.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide product-img">
+                            <img src="./style/images/30.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide product-img">
+                            <img src="./style/images/31.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide product-img">
+                            <img src="./style/images/32.jpg" alt="">
                         </div>
                     </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
             <div class="product-jumps">

@@ -15,7 +15,7 @@ $('.dropdown-categories a').mouseenter(function () {
 
     $('.nav-adds-container').each(function (index, element) {
     $(this).removeClass('add-active');
-   
+
 });
 $(".nav-adds-container[data-index='" + a + "']").addClass('add-active');
     // console.log(b.text());
@@ -38,18 +38,18 @@ $(window).scroll(function (event) {
     if (st > lastScrollTop+15) {
         // $('.navbar-container').addClass('nav-notshown');
 
-        
+
         $('.navbar-container').slideUp(200);
 
         st = $(this).scrollTop();
- 
+
 
     } else if(st < lastScrollTop-15) {
-       
+
         // upscroll code
         // $('.navbar-container').removeClass('nav-notshown');
         $('.navbar-container').slideDown(200);
- 
+
         st = $(this).scrollTop();
     }
     lastScrollTop = st;
@@ -98,7 +98,7 @@ $('#text-span-btn').click(function(event){
         $('#text-span-btn i').toggleClass('fa-angle-down fa-angle-up');
         $('#text-span-btn span').text('مشاهده کمتر');
     }
-   
+
 
 });
 
@@ -115,7 +115,7 @@ $('#collapse-param-btn').click(function(event){
         $('#collapse-param-btn i').toggleClass('fa-angle-down fa-angle-up');
         $('#collapse-param-btn span').text('فقط نمایش مشخصات کلی کالا');
     }
-   
+
 
 });
 
@@ -133,7 +133,7 @@ $('#suppliers-more-btn').click(function(event){
         $('#suppliers-more-btn i').toggleClass('fa-angle-down fa-angle-up');
         $('#suppliers-more-btn span').text('نمایش کمتر');
     }
-   
+
 
 });
 
@@ -142,7 +142,7 @@ $('#suppliers-more-btn').click(function(event){
 
     if ($(window).width() < 900) {
         // console.log($(window).width());
-        var swiper = new Swiper('.swiper-container', {
+        var swiper = new Swiper('.mySwiper', {
             slidesPerView: 2,
             slidesPerGroup: 2,
             spaceBetween: 30,
@@ -155,10 +155,10 @@ $('#suppliers-more-btn').click(function(event){
                 prevEl: '.swiper-button-prev',
             },
         });
-    
-    
+
+
     } else {
-        var swiper = new Swiper('.swiper-container', {
+        var swiper = new Swiper('.mySwiper', {
             slidesPerView: 5,
             slidesPerGroup: 5,
             spaceBetween: 30,
@@ -171,7 +171,7 @@ $('#suppliers-more-btn').click(function(event){
                 prevEl: '.swiper-button-prev',
             },
         });
-    
+
         var swiper2 = new Swiper('.swiper-container2', {
             slidesPerView: 4,
             slidesPerGroup: 4,
@@ -186,7 +186,7 @@ $('#suppliers-more-btn').click(function(event){
             },
         });
     }
-    
+
 
 // $('.btn-link-blue').click(function(event){
 //     event.preventDefault();
