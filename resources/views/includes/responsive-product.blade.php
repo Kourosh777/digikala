@@ -1062,6 +1062,376 @@
             </div>
         </div>
     </div>
+    <div class="remodal-wrapper" >
+        <div class="remodal-full-screen remodal-comments">
+            <div class="remodal-comments-container">
+                <div class="page-title-bar">
+                    <div class="page-title-bar-holder">
+                        <div class="title-bar-icon">
+                            <i class="fa fa-arrow-right icon-arrow-right">
+                            </i>
+                        </div>
+                        <div class="title-bar-title">
+                            نظرات کاربران
+                        </div>
+                    </div>
+                </div>
+                <div class="remodal-comments-content">
+                    <div class="round-cart section-margin">
+                        <div class="remodal-coments-head-actions">
+                            <h2 class="remodal-comments-title">
+                                نظر خود را ثبت کنید
+                            </h2>
+                            <a href="" class="remodal-comments-add-action">
+
+                                افزودن نظر
+                            </a>
+                        </div>
+                        <div class="remodal-comments-sort-header">
+                            <p>
+                                مرتب‌سازی بر اساس:
+                            </p>
+                            <div class="remodal-comments-sort-options">
+                                <div class="remodal-comments-sort-option">
+                                    <div class="radio-wrapper">
+                                        <label for="" class="filter-label">
+                                            نظر خریداران
+                                        </label>
+                                        <label for="" class="ui-radio">
+                                            <input type="radio" name="" id="">
+                                            <span class="ui-radio-check"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="remodal-comments-sort-option">
+                                    <div class="radio-wrapper">
+                                        <label for="" class="filter-label">
+                                            مفیدترین نظرات
+                                        </label>
+                                        <label for="" class="ui-radio">
+                                            <input type="radio" name="" id="">
+                                            <span class="ui-radio-check"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="remodal-comments-sort-option">
+                                    <div class="radio-wrapper">
+                                        <label for="" class="filter-label">
+                                            جدیدترین نظرات
+                                        </label>
+                                        <label for="" class="ui-radio">
+                                            <input type="radio" name="" id="">
+                                            <span class="ui-radio-check"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="comments-list">
+                        <div class="round-cart section-margin">
+                            <div class="product-uploaded-top-bar">
+                                <div class="product-uploaded-title">
+                                    تصاویر کاربران
+                                </div>
+                                <div class="o-link">
+                                    ۵۸ تصویر
+                                </div>
+                            </div>
+                            <div class="product-uploaded-container">
+                                <div class="product-uploaded-thumb">
+                                    <img src="./style/images/1.jpeg" alt="">
+                                </div>
+                                <div class="product-uploaded-thumb">
+                                    <img src="./style/images/1.jpeg" alt="">
+                                </div>
+                                <div class="product-uploaded-thumb">
+                                    <img src="./style/images/1.jpeg" alt="">
+                                </div>
+                                <div class="product-uploaded-thumb">
+                                    <img src="./style/images/1.jpeg" alt="">
+                                </div>
+                                <div class="product-uploaded-thumb">
+                                    <img src="./style/images/1.jpeg" alt="">
+                                </div>
+                                <div class="product-uploaded-thumb">
+                                    <img src="./style/images/1.jpeg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <section class="section-margin">
+                            <div class="round-cart">
+                                <div class="remodal-comments-details">
+                                    <div class="remodal-comments-summary">
+                                        <div class="remodal-comments-summary-title">
+                                            <div class="remodal-comments-summary-title-details"></div>
+                                            <div class="remodal-comments-summary-sender">
+                                                    <span>
+                                                    عباس رادمرد
+
+                                                    </span>
+                                                <span>
+                                                        (۲۹ اردیبهشت ۱۴۰۰)
+                                                    </span>
+                                            </div>
+                                        </div>
+                                        <p class="remodal-comments-summary-seller">
+                                            <span>خریداری شده از:</span>
+                                            <span>دیجی‌کالا</span>
+                                        </p>
+                                        <div class="remodal-comments-recommended comments-recomend-positive">
+                                            خرید این محصول را توصیه می کنم
+                                        </div>
+                                        <div class="remodal-comments-summary-bought">
+                                            <div class="remodal-comments-summary-bought-details">
+                                                <div class="remodal-summary-bought-color">
+                                                    <span>رنگ خریداری شده:</span>
+                                                    <span>مشکی</span>
+                                                    <div class="remodal-comments-bought-color-value">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="remodal-comments-comment-body">
+                                        <p>
+                                            واقعا گوشی پرفروش و پرطرفداری هستش نسبت به قیمتش کاراییش عالیه منک راضی بودم از گوشی a12
+                                        </p>
+                                    </div>
+                                    <div class="remodal-comments-comment-actions">
+                                        <span>آیا این نظر برایتان مفید بود؟ </span>
+                                        <div class="remodal-comments-comment-buttons">
+                                            <a href="" class="remodal-comments-comment-button">
+                                                <i class="far fa-thumbs-up"></i>
+                                                <span>
+                                                        (
+                                                            <span class="like-count">
+                                                                ۰
+                                                            </span>
+                                                        )
+                                                    </span>
+                                            </a>
+                                            <a href="" class="remodal-comments-comment-button2">
+                                                <div class="remodal-comments-comment-button-flag">
+                                                    <i class="fa fa-flag icon-flag"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="section-margin">
+                            <div class="round-cart">
+                                <div class="remodal-comments-details">
+                                    <div class="remodal-comments-summary">
+                                        <div class="remodal-comments-summary-title">
+                                            <div class="remodal-comments-summary-title-details"></div>
+                                            <div class="remodal-comments-summary-sender">
+                                                    <span>
+                                                    عباس رادمرد
+
+                                                    </span>
+                                                <span>
+                                                        (۲۹ اردیبهشت ۱۴۰۰)
+                                                    </span>
+                                            </div>
+                                        </div>
+                                        <p class="remodal-comments-summary-seller">
+                                            <span>خریداری شده از:</span>
+                                            <span>دیجی‌کالا</span>
+                                        </p>
+                                        <div class="remodal-comments-recommended comments-recomend-positive">
+                                            خرید این محصول را توصیه می کنم
+                                        </div>
+                                        <div class="remodal-comments-summary-bought">
+                                            <div class="remodal-comments-summary-bought-details">
+                                                <div class="remodal-summary-bought-color">
+                                                    <span>رنگ خریداری شده:</span>
+                                                    <span>مشکی</span>
+                                                    <div class="remodal-comments-bought-color-value">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="remodal-comments-comment-body">
+                                        <p>
+                                            واقعا گوشی پرفروش و پرطرفداری هستش نسبت به قیمتش کاراییش عالیه منک راضی بودم از گوشی a12
+                                        </p>
+                                    </div>
+                                    <div class="remodal-comments-comment-actions">
+                                        <span>آیا این نظر برایتان مفید بود؟ </span>
+                                        <div class="remodal-comments-comment-buttons">
+                                            <a href="" class="remodal-comments-comment-button">
+                                                <i class="far fa-thumbs-up"></i>
+                                                <span>
+                                                        (
+                                                            <span class="like-count">
+                                                                ۰
+                                                            </span>
+                                                        )
+                                                    </span>
+                                            </a>
+                                            <a href="" class="remodal-comments-comment-button2">
+                                                <div class="remodal-comments-comment-button-flag">
+                                                    <i class="fa fa-flag icon-flag"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="section-margin">
+                            <div class="round-cart">
+                                <div class="remodal-comments-details">
+                                    <div class="remodal-comments-summary">
+                                        <div class="remodal-comments-summary-title">
+                                            <div class="remodal-comments-summary-title-details"></div>
+                                            <div class="remodal-comments-summary-sender">
+                                                    <span>
+                                                    عباس رادمرد
+
+                                                    </span>
+                                                <span>
+                                                        (۲۹ اردیبهشت ۱۴۰۰)
+                                                    </span>
+                                            </div>
+                                        </div>
+                                        <p class="remodal-comments-summary-seller">
+                                            <span>خریداری شده از:</span>
+                                            <span>دیجی‌کالا</span>
+                                        </p>
+                                        <div class="remodal-comments-recommended comments-recomend-positive">
+                                            خرید این محصول را توصیه می کنم
+                                        </div>
+                                        <div class="remodal-comments-summary-bought">
+                                            <div class="remodal-comments-summary-bought-details">
+                                                <div class="remodal-summary-bought-color">
+                                                    <span>رنگ خریداری شده:</span>
+                                                    <span>مشکی</span>
+                                                    <div class="remodal-comments-bought-color-value">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="remodal-comments-comment-body">
+                                        <p>
+                                            واقعا گوشی پرفروش و پرطرفداری هستش نسبت به قیمتش کاراییش عالیه منک راضی بودم از گوشی a12
+                                        </p>
+                                    </div>
+                                    <div class="remodal-comments-comment-actions">
+                                        <span>آیا این نظر برایتان مفید بود؟ </span>
+                                        <div class="remodal-comments-comment-buttons">
+                                            <a href="" class="remodal-comments-comment-button">
+                                                <i class="far fa-thumbs-up"></i>
+                                                <span>
+                                                        (
+                                                            <span class="like-count">
+                                                                ۰
+                                                            </span>
+                                                        )
+                                                    </span>
+                                            </a>
+                                            <a href="" class="remodal-comments-comment-button2">
+                                                <div class="remodal-comments-comment-button-flag">
+                                                    <i class="fa fa-flag icon-flag"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="section-margin">
+                            <div class="round-cart">
+                                <div class="remodal-comments-details">
+                                    <div class="remodal-comments-summary">
+                                        <div class="remodal-comments-summary-title">
+                                            <div class="remodal-comments-summary-title-details"></div>
+                                            <div class="remodal-comments-summary-sender">
+                                                    <span>
+                                                    عباس رادمرد
+
+                                                    </span>
+                                                <span>
+                                                        (۲۹ اردیبهشت ۱۴۰۰)
+                                                    </span>
+                                            </div>
+                                        </div>
+                                        <p class="remodal-comments-summary-seller">
+                                            <span>خریداری شده از:</span>
+                                            <span>دیجی‌کالا</span>
+                                        </p>
+                                        <div class="remodal-comments-recommended comments-recomend-positive">
+                                            خرید این محصول را توصیه می کنم
+                                        </div>
+                                        <div class="remodal-comments-summary-bought">
+                                            <div class="remodal-comments-summary-bought-details">
+                                                <div class="remodal-summary-bought-color">
+                                                    <span>رنگ خریداری شده:</span>
+                                                    <span>مشکی</span>
+                                                    <div class="remodal-comments-bought-color-value">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="remodal-comments-comment-body">
+                                        <p>
+                                            واقعا گوشی پرفروش و پرطرفداری هستش نسبت به قیمتش کاراییش عالیه منک راضی بودم از گوشی a12
+                                        </p>
+                                    </div>
+                                    <div class="remodal-comments-comment-actions">
+                                        <span>آیا این نظر برایتان مفید بود؟ </span>
+                                        <div class="remodal-comments-comment-buttons">
+                                            <a href="" class="remodal-comments-comment-button">
+                                                <i class="far fa-thumbs-up"></i>
+                                                <span>
+                                                        (
+                                                            <span class="like-count">
+                                                                ۰
+                                                            </span>
+                                                        )
+                                                    </span>
+                                            </a>
+                                            <a href="" class="remodal-comments-comment-button2">
+                                                <div class="remodal-comments-comment-button-flag">
+                                                    <i class="fa fa-flag icon-flag"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="remodal-comments-pagination">
+                            <div class="pager section-margin round-cart">
+                                <a href="" class="pager-back">قبلی
+                                    <i class="fa fa-angle-left"></i>
+                                </a>
+                                <div class="pager-current">
+                                    <span class="u-ml-4">صفحه</span> <span>۱</span> <span> از </span> <span>۱۶۱</span>
+                                </div>
+                                <a href="" class="pager-next">
+                                    <i class="fa fa-angle-right"></i>
+                                    بعدی
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </div>
 </div>
